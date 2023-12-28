@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-subbuild/CMakeFiles/xlnt-populate"
+		},
+		{
+			"file" : "/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-subbuild/CMakeFiles/xlnt-populate.rule"
+		},
+		{
+			"file" : "/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-subbuild/CMakeFiles/xlnt-populate-complete.rule"
+		},
+		{
+			"file" : "/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-subbuild/xlnt-populate-prefix/src/xlnt-populate-stamp/xlnt-populate-build.rule"
+		},
+		{
+			"file" : "/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-subbuild/xlnt-populate-prefix/src/xlnt-populate-stamp/xlnt-populate-configure.rule"
+		},
+		{
+			"file" : "/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-subbuild/xlnt-populate-prefix/src/xlnt-populate-stamp/xlnt-populate-download.rule"
+		},
+		{
+			"file" : "/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-subbuild/xlnt-populate-prefix/src/xlnt-populate-stamp/xlnt-populate-install.rule"
+		},
+		{
+			"file" : "/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-subbuild/xlnt-populate-prefix/src/xlnt-populate-stamp/xlnt-populate-mkdir.rule"
+		},
+		{
+			"file" : "/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-subbuild/xlnt-populate-prefix/src/xlnt-populate-stamp/xlnt-populate-patch.rule"
+		},
+		{
+			"file" : "/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-subbuild/xlnt-populate-prefix/src/xlnt-populate-stamp/xlnt-populate-test.rule"
+		},
+		{
+			"file" : "/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-subbuild/xlnt-populate-prefix/src/xlnt-populate-stamp/xlnt-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"xlnt-populate"
+		],
+		"name" : "xlnt-populate"
+	}
+}

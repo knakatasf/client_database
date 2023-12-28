@@ -1,0 +1,333 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "_deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/./__/libstudxml/libstudxml/parser.cxx.o"
+		},
+		{
+			"path" : "_deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/./__/libstudxml/libstudxml/qname.cxx.o"
+		},
+		{
+			"path" : "_deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/./__/libstudxml/libstudxml/serializer.cxx.o"
+		},
+		{
+			"path" : "_deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/./__/libstudxml/libstudxml/value-traits.cxx.o"
+		},
+		{
+			"path" : "_deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/./__/libstudxml/libstudxml/details/genx/char-props.c.o"
+		},
+		{
+			"path" : "_deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/./__/libstudxml/libstudxml/details/genx/genx.c.o"
+		},
+		{
+			"path" : "_deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/./__/libstudxml/libstudxml/details/expat/xmlparse.c.o"
+		},
+		{
+			"path" : "_deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/./__/libstudxml/libstudxml/details/expat/xmlrole.c.o"
+		},
+		{
+			"path" : "_deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/./__/libstudxml/libstudxml/details/expat/xmltok.c.o"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_compile_definitions",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"cmake-build-debug/_deps/xlnt-src/third-party/libstudxml.build/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 52,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 54,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 55,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIC -fcolor-diagnostics"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "LIBSTUDXML_STATIC_LIB=1"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/third-party/libstudxml.build/../libstudxml"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIC -fcolor-diagnostics"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "LIBSTUDXML_STATIC_LIB=1"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/third-party/libstudxml.build/../libstudxml"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				7,
+				8,
+				10,
+				11,
+				12
+			]
+		}
+	],
+	"id" : "libstudxml::@adc904478183145f15fa",
+	"name" : "libstudxml",
+	"paths" : 
+	{
+		"build" : "_deps/xlnt-build/source/third-party/libstudxml",
+		"source" : "cmake-build-debug/_deps/xlnt-src/third-party/libstudxml.build"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				7,
+				8,
+				10,
+				11,
+				12
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				4,
+				5,
+				6,
+				9,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/parser.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/qname.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/serializer.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/value-traits.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/content.hxx",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/exception.hxx",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/forward.hxx",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/details/genx/char-props.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/details/genx/genx.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/details/genx/genx.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/details/expat/xmlparse.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/details/expat/xmlrole.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/details/expat/xmltok.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/details/expat/ascii.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/details/expat/asciitab.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/details/expat/config.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/details/expat/expat_external.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/details/expat/expat.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/details/expat/iasciitab.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/details/expat/internal.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/details/expat/latin1tab.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/details/expat/nametab.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/details/expat/utf8tab.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/details/expat/xmlrole.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/details/expat/xmltok_impl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/details/expat/xmltok.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}
