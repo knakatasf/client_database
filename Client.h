@@ -7,20 +7,38 @@
 class Client {
 public:
     Client() {}
+    Client(const int, const std::string&, const std::string&,
+           const std::string&, const std::string&, const std::string&,
+           const std::string&, const std::string&, const std::string&);
     ~Client() {}
 
-    int getClientID() const;
-    std::string getLastName() const;
-    std::string getFirstName() const;
-    std::string getPhoneNumber() const;
-    std::string getEmail() const;
-    std::string getAddress() const;
-    std::string getCity() const;
-    std::string getZipcode() const;
-    std::string getState() const;
+    int getClientID() const { return clientID; }
+    std::string getLastName() const { return lastName; }
+    std::string getFirstName() const { return firstName; }
+    std::string getPhoneNumber() const { return phoneNumber; }
+    std::string getEmail() const { return email; }
+    std::string getAddress() const { return address; }
+    std::string getCity() const { return city; }
+    std::string getZipcode() const { return zipcode; }
+    std::string getState() const { return state; }
 
+    void setClientID(const int);
+    bool setLastName(const std::string&);
+    bool setFirstName(const std::string&);
+    bool setPhoneNumber(const std::string&);
+    bool setEmail(const std::string&);
+    bool setAddress(const std::string&);
+    bool setCity(const std::string&);
+    bool setZipcode(const std::string&);
+    bool setState(const std::string&);
 
     void inputNewInfo();
+    void inputName();
+    void inputPhone();
+    void inputEmail();
+    void inputAddress();
+
+    void displayClient();
 
 private:
     int clientID = 0;

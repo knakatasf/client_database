@@ -12,9 +12,12 @@ const string db = "mysql";
 int main() {
     DBManager MyDB = DBManager();
     MyDB.connect(host, user, password, db);
-    MyDB.createDB("MyClientDB");
+    // MyDB.createDB("MyClientDB");
 
-    MyDB.insertNewClient();
+    // MyDB.insertNewClient();
+    // MyDB.searchClient();
+    MyDB.editClient();
+
 
 //    xlnt::workbook wb;
 //    xlnt::worksheet ws = wb.active_sheet();
