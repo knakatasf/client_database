@@ -12,6 +12,8 @@
 #include <cppconn/prepared_statement.h>
 #include <cppconn/Statement.h>
 #include <cppconn/resultset.h>
+#include <xlnt/xlnt.hpp>
+#include <cstring>
 
 
 class DBManager {
@@ -25,8 +27,9 @@ public:
     void insertNewClient();
     std::vector<Client> searchClient();
     void editClient();
+    void deleteClient();
 
-    void readExcel();
+    void importFromExcel(const std::string&);
 
 private:
     sql::mysql::MySQL_Driver* driver {nullptr};
@@ -46,6 +49,7 @@ private:
 
     std::vector<Client> createClientVec(std::vector<Client>&, sql::ResultSet*);
 
+    void insertClientToDB(const Client&);
 };
 
 

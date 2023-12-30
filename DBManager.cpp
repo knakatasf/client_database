@@ -37,21 +37,7 @@ void DBManager::insertNewClient() {
 
         useDB();
 
-        sql::PreparedStatement* pstmt = con->prepareStatement(
-                "INSERT INTO clients (FirstName, LastName, PhoneNumber, Email, Address, City, Zipcode, State) "
-                "VALUES (?, ?, ?, ?, ?, ?, ?, ?)");
-        pstmt->setString(1, tempClient.getFirstName());
-        pstmt->setString(2, tempClient.getLastName());
-        pstmt->setString(3, tempClient.getPhoneNumber());
-        pstmt->setString(4, tempClient.getEmail());
-        pstmt->setString(5, tempClient.getAddress());
-        pstmt->setString(6, tempClient.getCity());
-        pstmt->setString(7, tempClient.getZipcode());
-        pstmt->setString(8, tempClient.getState());
-        pstmt->execute();
-
-        delete pstmt;
-        cout << "New client " << tempClient.getLastName() << " recorded!" << endl;
+        insertClientToDB(tempClient);
     }
 
 
@@ -82,21 +68,24 @@ void DBManager::editClient() {
     vector<Client> resVec;
     resVec = searchClient();
 
-    int index;
+    Client target;
+    if (resVec.size() >= 2) {
+        int index;
+        string input;
+        cout << "Which client's data do you want to edit?" << endl;
+        cout << "Please indicate by Client Index. To quit, press 0: ";
+        while (true) {
+            getline(cin, input);
+            stringstream convert(input);
+            if  (convert >> index && index >= 0 && index <= resVec.size()) break;
+            cout << "Invalid entry.. Please enter a valid number -> ";
+        }
+        if (index == 0) return;
+        target = resVec[index-1];
+    } else if (resVec.size() == 1) target = resVec[0];
+    else return;
+
     string input;
-    cout << "Which client's data do you want to edit?" << endl;
-    cout << "Please indicate by Client Index. To quit, press 0: ";
-    while (true) {
-        getline(cin, input);
-        stringstream convert(input);
-        if  (convert >> index && index >= 0 && index <= resVec.size()) break;
-        cout << "Invalid entry.. Please enter a valid number -> ";
-    }
-
-    if (index == 0) return;
-
-    Client target = resVec[index-1];
-
     int choice;
     target.displayClient();
     cout << "Which data do you want to edit?" << endl;
@@ -116,6 +105,71 @@ void DBManager::editClient() {
         case 3: editClientEmail(target); break;
         case 4: editClientAddress(target); break;
     }
+}
+
+void DBManager::deleteClient() {
+    vector<Client> resVec;
+    resVec = searchClient();
+    Client target;
+
+    if (resVec.size() >= 2) {
+        int index;
+        string input;
+        cout << "Which client's data do you want to edit?" << endl;
+        cout << "Please indicate by Client Index. To quit, press 0: ";
+        while (true) {
+            getline(cin, input);
+            stringstream convert(input);
+            if  (convert >> index && index >= 0 && index <= resVec.size()) break;
+            cout << "Invalid entry.. Please enter a valid number -> ";
+        }
+        if (index == 0) return;
+        target = resVec[index-1];
+    } else if (resVec.size() == 1) target = resVec[0];
+    else return;
+
+    if (con) {
+        sql::PreparedStatement* pstmt = con->prepareStatement(
+                "DELETE FROM clients WHERE ClientID = ?");
+        pstmt->setInt(1, target.getClientID());
+        pstmt->execute();
+
+        delete pstmt;
+        cout << "Client " << target.getLastName() << " deleted!" << endl;
+    }
+}
+
+void DBManager::importFromExcel(const string& excelPath) {
+    xlnt::workbook wb;
+    wb.load(excelPath);
+    auto ws = wb.active_sheet();
+
+    vector<Client> clientVec;
+    auto rows = ws.rows(false);
+    for (auto rowIter = next(rows.begin()); rowIter != rows.end(); ++rowIter) {
+        auto row = *rowIter;
+        Client client;
+
+        string name = row[0].to_string();
+        int pos = name.find(", ");
+        string lName = name.substr(0, pos);
+        client.setLastName(lName);
+        string fName = name.substr(pos + 2, name.length());
+        client.setFirstName(fName);
+
+        client.setPhoneNumber(row[1].to_string());
+        client.setEmail(row[2].to_string());
+        client.setAddress(row[3].to_string());
+        client.setCity(row[4].to_string());
+        client.setZipcode(row[5].to_string());
+        client.setState(row[6].to_string());
+
+        clientVec.push_back(client);
+    }
+    for (Client client : clientVec) {
+        insertClientToDB(client);
+    }
+
 }
 
 void DBManager::useDB() {
@@ -325,4 +379,21 @@ vector<Client> DBManager::createClientVec(vector<Client>& resVec, sql::ResultSet
         resVec.push_back(tempClient);
     }
     return resVec;
+}
+
+void DBManager::insertClientToDB(const Client& tempClient) {
+    sql::PreparedStatement* pstmt = con->prepareStatement(
+            "INSERT INTO clients (FirstName, LastName, PhoneNumber, Email, Address, City, Zipcode, State) "
+            "VALUES (?, ?, ?, ?, ?, ?, ?, ?)");
+    pstmt->setString(1, tempClient.getFirstName());
+    pstmt->setString(2, tempClient.getLastName());
+    pstmt->setString(3, tempClient.getPhoneNumber());
+    pstmt->setString(4, tempClient.getEmail());
+    pstmt->setString(5, tempClient.getAddress());
+    pstmt->setString(6, tempClient.getCity());
+    pstmt->setString(7, tempClient.getZipcode());
+    pstmt->setString(8, tempClient.getState());
+    pstmt->execute();
+
+    delete pstmt;
 }
