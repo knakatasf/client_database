@@ -16,11 +16,12 @@ FetchContent_MakeAvailable(xlnt)
 include_directories(/usr/local/mysql-connector-c++-8.2.0/include/jdbc)
 link_directories(/usr/local/mysql-connector-c++-8.2.0/lib64)
 
-# Add the OpenSSL library as a dependency (if needed)
 find_package(OpenSSL REQUIRED)
 include_directories(${OPENSSL_INCLUDE_DIR})
 
-# Create the executable
+find_package(wxWidgets REQUIRED COMPONENTS core base)
+include(${wxWidgets_USE_FILE})
+
 add_executable(Client_Database
         main.cpp
         DBManager.cpp
@@ -28,7 +29,12 @@ add_executable(Client_Database
         Client.cpp
         Client.h)
 
+target_include_directories(Client_Database
+        PRIVATE ${wxWidgets_INCLUDE_DIRS}
+        /usr/local/include/wx-3.2)
+
 target_link_libraries(Client_Database
         PRIVATE xlnt
-        curl mysqlcppconn)
+        curl mysqlcppconn
+        ${wxWidgets_LIBRARIES})
 

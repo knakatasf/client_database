@@ -375,6 +375,15 @@ libstudxml_IS_TOP_LEVEL:STATIC=OFF
 //Value Computed by CMake
 libstudxml_SOURCE_DIR:STATIC=/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/third-party/libstudxml.build
 
+//Location of wxWidgets library configuration provider binary (wx-config).
+wxWidgets_CONFIG_EXECUTABLE:FILEPATH=/usr/local/bin/wx-config
+
+//Use debug build?
+wxWidgets_USE_DEBUG:BOOL=OFF
+
+//Location of wxWidgets resource file compiler binary (wxrc)
+wxWidgets_wxrc_EXECUTABLE:FILEPATH=/usr/local/bin/wxrc
+
 //Value Computed by CMake
 xlnt_BINARY_DIR:STATIC=/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-build/source
 
@@ -565,6 +574,8 @@ CMAKE_UNAME:INTERNAL=/usr/bin/uname
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Details about finding OpenSSL
 FIND_PACKAGE_MESSAGE_DETAILS_OpenSSL:INTERNAL=[/opt/homebrew/lib/libcrypto.dylib][/opt/homebrew/include][c ][v3.2.0()]
+//Details about finding wxWidgets
+FIND_PACKAGE_MESSAGE_DETAILS_wxWidgets:INTERNAL=[-L/usr/local/lib;-pthread;-lwx_osx_cocoau_core-3.2;-lwx_baseu-3.2][/usr/local/lib/wx/include/osx_cocoa-unicode-3.2;/usr/local/include/wx-3.2][v3.2.4()]
 //ADVANCED property for variable: GIT_EXECUTABLE
 GIT_EXECUTABLE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: OPENSSL_CRYPTO_LIBRARY

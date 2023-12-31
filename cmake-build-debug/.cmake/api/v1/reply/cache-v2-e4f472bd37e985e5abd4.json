@@ -1590,6 +1590,18 @@
 			"value" : "[/opt/homebrew/lib/libcrypto.dylib][/opt/homebrew/include][c ][v3.2.0()]"
 		},
 		{
+			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_wxWidgets",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Details about finding wxWidgets"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "[-L/usr/local/lib;-pthread;-lwx_osx_cocoau_core-3.2;-lwx_baseu-3.2][/usr/local/lib/wx/include/osx_cocoa-unicode-3.2;/usr/local/include/wx-3.2][v3.2.4()]"
+		},
+		{
 			"name" : "GIT_EXECUTABLE",
 			"properties" : 
 			[
@@ -2132,6 +2144,42 @@
 			],
 			"type" : "STATIC",
 			"value" : "/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/third-party/libstudxml.build"
+		},
+		{
+			"name" : "wxWidgets_CONFIG_EXECUTABLE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Location of wxWidgets library configuration provider binary (wx-config)."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/local/bin/wx-config"
+		},
+		{
+			"name" : "wxWidgets_USE_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Use debug build?"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "wxWidgets_wxrc_EXECUTABLE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Location of wxWidgets resource file compiler binary (wxrc)"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/local/bin/wxrc"
 		},
 		{
 			"name" : "xlnt_BINARY_DIR",

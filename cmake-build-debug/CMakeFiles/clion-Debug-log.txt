@@ -23,6 +23,7 @@ CMake Deprecation Warning at cmake-build-debug/_deps/xlnt-src/third-party/libstu
   CMake that the project does not need compatibility with older versions.
 
 
--- Configuring done (0.9s)
+-- Found wxWidgets: -L/usr/local/lib;-pthread;-lwx_osx_cocoau_core-3.2;-lwx_baseu-3.2 (found version "3.2.4") 
+-- Configuring done (1.5s)
 -- Generating done (0.0s)
 -- Build files have been written to: /Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug

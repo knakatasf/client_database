@@ -2,6 +2,39 @@
 
 using namespace std;
 
+void DBManager::executeMethod() {
+    int choice = chooseMenu();
+
+    while (choice != 6) {
+        switch (choice) {
+            case 1 : insertNewClient(); break;
+            case 2 : searchClient(); break;
+            case 3 : editClient(); break;
+            case 4 : deleteClient(); break;
+            case 5 : importFromExcel(); break;
+        }
+        choice = chooseMenu();
+    }
+    cout << "Thank you for using this program. Bye!" << endl;
+}
+
+int DBManager::chooseMenu() {
+    string input;
+    int choice;
+    cout << "Hello, welcome to MyClient DB! How can I help you?" << endl;
+    cout << "1: Insert a new client\n2: Search a client\n3: Edit client data" << endl;
+    cout << "4: Delete client data\n5: Import client data from Excel\n6: Quit the program"<< endl;
+    cout << "Enter your choice in number -> ";
+
+    while (true) {
+        getline(cin, input);
+        stringstream convert(input);
+        if (convert >> choice && choice >= 1 && choice <= 6) break;
+        cout << "Invalid entry.. Please enter a valid number -> ";
+    }
+    return choice;
+}
+
 void DBManager::connect(const string& host, const string& user,
                         const string& password, const string& db) {
     try {
@@ -139,37 +172,49 @@ void DBManager::deleteClient() {
     }
 }
 
-void DBManager::importFromExcel(const string& excelPath) {
-    xlnt::workbook wb;
-    wb.load(excelPath);
-    auto ws = wb.active_sheet();
+void DBManager::importFromExcel() {
+    cout << "Inside the member function" << endl;
+    string excelPath;
+    cout << "Please input the excel file path: ";
+    getline(cin, excelPath);
 
-    vector<Client> clientVec;
-    auto rows = ws.rows(false);
-    for (auto rowIter = next(rows.begin()); rowIter != rows.end(); ++rowIter) {
-        auto row = *rowIter;
-        Client client;
+    try {
+        xlnt::workbook wb;
+        wb.load(excelPath);
+        auto ws = wb.active_sheet();
 
-        string name = row[0].to_string();
-        int pos = name.find(", ");
-        string lName = name.substr(0, pos);
-        client.setLastName(lName);
-        string fName = name.substr(pos + 2, name.length());
-        client.setFirstName(fName);
+        cout << "Worksheet loaded" << endl;
 
-        client.setPhoneNumber(row[1].to_string());
-        client.setEmail(row[2].to_string());
-        client.setAddress(row[3].to_string());
-        client.setCity(row[4].to_string());
-        client.setZipcode(row[5].to_string());
-        client.setState(row[6].to_string());
+        vector<Client> clientVec;
+        auto rows = ws.rows(false);
+        for (auto rowIter = next(rows.begin()); rowIter != rows.end(); ++rowIter) {
+            auto row = *rowIter;
+            Client client;
 
-        clientVec.push_back(client);
+            cout << "Inside the for loop" << endl;
+
+            string name = row[0].to_string();
+            int pos = name.find(", ");
+            string lName = name.substr(0, pos);
+            client.setLastName(lName);
+            string fName = name.substr(pos + 2, name.length());
+            client.setFirstName(fName);
+
+            client.setPhoneNumber(row[1].to_string());
+            client.setEmail(row[2].to_string());
+            client.setAddress(row[3].to_string());
+            client.setCity(row[4].to_string());
+            client.setZipcode(row[5].to_string());
+            client.setState(row[6].to_string());
+
+            clientVec.push_back(client);
+        }
+        for (Client client : clientVec) {
+            insertClientToDB(client);
+        }
+    } catch (const exception& e) {
+        cerr << "Error: " << e.what() << endl;
     }
-    for (Client client : clientVec) {
-        insertClientToDB(client);
-    }
-
 }
 
 void DBManager::useDB() {

@@ -19,7 +19,10 @@
 class DBManager {
 public:
     DBManager() : driver{nullptr}, con{nullptr} {}
-    ~DBManager() {delete con;}
+    ~DBManager() { delete con; }
+
+    void executeMethod();
+    int chooseMenu();
 
     void connect(const std::string&, const std::string&, const std::string&, const std::string&);
     void createDB(const std::string&);
@@ -28,8 +31,7 @@ public:
     std::vector<Client> searchClient();
     void editClient();
     void deleteClient();
-
-    void importFromExcel(const std::string&);
+    void importFromExcel();
 
 private:
     sql::mysql::MySQL_Driver* driver {nullptr};
@@ -51,6 +53,5 @@ private:
 
     void insertClientToDB(const Client&);
 };
-
 
 #endif
