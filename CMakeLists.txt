@@ -27,7 +27,13 @@ add_executable(Client_Database
         DBManager.cpp
         DBManager.h
         Client.cpp
-        Client.h)
+        Client.h
+        MyDBFrame.cpp
+        MyDBFrame.h
+        DBAppConfig.h
+        MyDBApp.cpp
+        MyDBApp.h
+        MyDBApp.h)
 
 target_include_directories(Client_Database
         PRIVATE ${wxWidgets_INCLUDE_DIRS}

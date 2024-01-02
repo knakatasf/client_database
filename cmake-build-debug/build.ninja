@@ -73,6 +73,22 @@ build CMakeFiles/Client_Database.dir/Client.cpp.o: CXX_COMPILER__Client_Database
   OBJECT_DIR = CMakeFiles/Client_Database.dir
   OBJECT_FILE_DIR = CMakeFiles/Client_Database.dir
 
+build CMakeFiles/Client_Database.dir/MyDBFrame.cpp.o: CXX_COMPILER__Client_Database_unscanned_Debug /Users/claudio/Desktop/CS_Projects/Client_Database/MyDBFrame.cpp || cmake_object_order_depends_target_Client_Database
+  DEFINES = -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXMAC__ -D__WXOSX_COCOA__ -D__WXOSX__
+  DEP_FILE = CMakeFiles/Client_Database.dir/MyDBFrame.cpp.o.d
+  FLAGS = -pthread -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  INCLUDES = -I/usr/local/mysql-connector-c++-8.2.0/include/jdbc -I/opt/homebrew/include -I/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/../include -isystem /usr/local/lib/wx/include/osx_cocoa-unicode-3.2 -isystem /usr/local/include/wx-3.2
+  OBJECT_DIR = CMakeFiles/Client_Database.dir
+  OBJECT_FILE_DIR = CMakeFiles/Client_Database.dir
+
+build CMakeFiles/Client_Database.dir/MyDBApp.cpp.o: CXX_COMPILER__Client_Database_unscanned_Debug /Users/claudio/Desktop/CS_Projects/Client_Database/MyDBApp.cpp || cmake_object_order_depends_target_Client_Database
+  DEFINES = -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXMAC__ -D__WXOSX_COCOA__ -D__WXOSX__
+  DEP_FILE = CMakeFiles/Client_Database.dir/MyDBApp.cpp.o.d
+  FLAGS = -pthread -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  INCLUDES = -I/usr/local/mysql-connector-c++-8.2.0/include/jdbc -I/opt/homebrew/include -I/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/../include -isystem /usr/local/lib/wx/include/osx_cocoa-unicode-3.2 -isystem /usr/local/include/wx-3.2
+  OBJECT_DIR = CMakeFiles/Client_Database.dir
+  OBJECT_FILE_DIR = CMakeFiles/Client_Database.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Client_Database
@@ -81,7 +97,7 @@ build CMakeFiles/Client_Database.dir/Client.cpp.o: CXX_COMPILER__Client_Database
 #############################################
 # Link the executable Client_Database
 
-build Client_Database: CXX_EXECUTABLE_LINKER__Client_Database_Debug CMakeFiles/Client_Database.dir/main.cpp.o CMakeFiles/Client_Database.dir/DBManager.cpp.o CMakeFiles/Client_Database.dir/Client.cpp.o | _deps/xlnt-build/source/libxlntd.1.5.0.dylib || _deps/xlnt-build/source/libxlntd.dylib _deps/xlnt-build/source/libxlntd.dylib
+build Client_Database: CXX_EXECUTABLE_LINKER__Client_Database_Debug CMakeFiles/Client_Database.dir/main.cpp.o CMakeFiles/Client_Database.dir/DBManager.cpp.o CMakeFiles/Client_Database.dir/Client.cpp.o CMakeFiles/Client_Database.dir/MyDBFrame.cpp.o CMakeFiles/Client_Database.dir/MyDBApp.cpp.o | _deps/xlnt-build/source/libxlntd.1.5.0.dylib || _deps/xlnt-build/source/libxlntd.dylib _deps/xlnt-build/source/libxlntd.dylib
   FLAGS = -pthread -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   LINK_LIBRARIES = -Wl,-rpath,/usr/local/mysql-connector-c++-8.2.0/lib64 -Wl,-rpath,/usr/local/lib -Wl,-rpath,/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-build/source  _deps/xlnt-build/source/libxlntd.1.5.0.dylib  -lcurl  -lmysqlcppconn  -L/usr/local/lib  -pthread  -lwx_osx_cocoau_core-3.2  -lwx_baseu-3.2
   LINK_PATH = -L/usr/local/mysql-connector-c++-8.2.0/lib64   -L/usr/local/lib
