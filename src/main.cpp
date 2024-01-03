@@ -1,7 +1,7 @@
-#include "DBManager.h"
+#include "../include/DBManager.h"
 #include <string>
 #include <wx/wx.h>
-#include "MyDBApp.h"
+#include "../include/MyDBApp.h"
 
 using namespace std;
 

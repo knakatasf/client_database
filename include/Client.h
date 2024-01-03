@@ -40,6 +40,11 @@ public:
 
     void displayClient();
 
+    bool isValidName(const std::string&) const;
+    bool isValidPhone(const std::string&) const;
+    bool isValidEmail(const std::string&) const;
+    bool isValidZip(const std::string&) const;
+
 private:
     int clientID = 0;
     std::string lastName = "";
@@ -50,11 +55,6 @@ private:
     std::string city = "";
     std::string zipcode = "";
     std::string state = "";
-
-    bool isValidName(const std::string&) const;
-    bool isValidPhone(const std::string&) const;
-    bool isValidEmail(const std::string&) const;
-    bool isValidZip(const std::string&) const;
 };
 
 #endif

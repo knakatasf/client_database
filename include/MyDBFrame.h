@@ -4,13 +4,14 @@
 #include <string>
 #include <wx/wx.h>
 #include "DBManager.h"
+#include "InsertDialog.h"
 
 class MyDBFrame : public wxFrame {
 public:
     MyDBFrame(const std::string&, const std::string&, const std::string&, const std::string&,
               const wxString&, const wxPoint&, const wxSize&);
 
-    void OnInsert(wxCommandEvent&) { dbManager.insertNewClient(); }
+    void OnInsert(wxCommandEvent&);
     void OnSearch(wxCommandEvent&) { dbManager.searchClient(); }
     void OnEdit(wxCommandEvent&) { dbManager.editClient(); }
     void OnDelete(wxCommandEvent&) { dbManager.deleteClient(); }

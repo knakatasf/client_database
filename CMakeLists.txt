@@ -23,17 +23,19 @@ find_package(wxWidgets REQUIRED COMPONENTS core base)
 include(${wxWidgets_USE_FILE})
 
 add_executable(Client_Database
-        main.cpp
-        DBManager.cpp
-        DBManager.h
-        Client.cpp
-        Client.h
-        MyDBFrame.cpp
-        MyDBFrame.h
-        DBAppConfig.h
-        MyDBApp.cpp
-        MyDBApp.h
-        MyDBApp.h)
+        src/main.cpp
+        src/DBManager.cpp
+        include/DBManager.h
+        src/Client.cpp
+        include/Client.h
+        src/MyDBFrame.cpp
+        include/MyDBFrame.h
+        include/DBAppConfig.h
+        src/MyDBApp.cpp
+        include/MyDBApp.h
+        include/MyDBApp.h
+        src/InsertDialog.cpp
+        include/InsertDialog.h)
 
 target_include_directories(Client_Database
         PRIVATE ${wxWidgets_INCLUDE_DIRS}
