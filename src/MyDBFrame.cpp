@@ -10,8 +10,6 @@ MyDBFrame::MyDBFrame(const string& host, const string& user, const string& passw
     DBManager* dbManagerPtr = DBManager::getInstance();
     dbManagerPtr->connect(host, user, password, db);
 
-    this->SetBackgroundColour(wxColour(*wxWHITE));
-
     insertButton = new wxButton(this, wxID_ANY, "Insert New Client");
     searchButton = new wxButton(this, wxID_ANY, "Search Client");
     editButton = new wxButton(this, wxID_ANY, "Edit Client Data");
@@ -22,7 +20,7 @@ MyDBFrame::MyDBFrame(const string& host, const string& user, const string& passw
     wxStaticText* menuMessage = new wxStaticText(this, wxID_ANY,
                                                  "Welcome to Client Database!\nPlease choose your choice:");
 
-    wxFont font(16, wxDECORATIVE, wxFONTSTYLE_NORMAL, wxFONTWEIGHT_BOLD);
+    wxFont font(15, wxDEFAULT, wxFONTSTYLE_NORMAL, wxFONTWEIGHT_NORMAL);
     menuMessage->SetFont(font);
     vBox->Add(menuMessage, 0, wxALIGN_CENTER | wxALL, 10);
     vBox->Add(insertButton, 0, wxALIGN_CENTER | wxALL, 10);

@@ -2,73 +2,45 @@
 #include "../include/InsertDialog.h"
 
 InsertDialog::InsertDialog(wxWindow* parent, wxWindowID id, const wxString& title)
-    : wxDialog(parent, id, title, wxDefaultPosition, wxDefaultSize, wxDEFAULT_DIALOG_STYLE) {
+    : wxDialog(parent, id, title, wxDefaultPosition, wxSize(430, 430), wxDEFAULT_DIALOG_STYLE) {
 
     wxBoxSizer* mainSizer = new wxBoxSizer(wxVERTICAL);
+    wxGridBagSizer* gridSizer = new wxGridBagSizer(3, 5);
 
-    wxBoxSizer* fNameSizer = new wxBoxSizer(wxHORIZONTAL);
-    fNameSizer->Add(new wxStaticText(this, wxID_ANY, "First Name:"),
-                    0, wxALIGN_CENTER_VERTICAL | wxALL, 5);
-    fNameCtrl = new wxTextCtrl(this, wxID_ANY, wxEmptyString, wxDefaultPosition, wxDefaultSize, 0);
-    fNameSizer->Add(fNameCtrl, 1, wxEXPAND | wxALL, 5);
-    mainSizer->Add(fNameSizer, 0, wxEXPAND);
-    fNameCtrl->SetFocus();
+    wxStaticText* mainText = new wxStaticText(this, wxID_ANY, "Please input Client information:",
+                                              wxDefaultPosition, wxDefaultSize, 0);
+    wxFont font(15, wxDEFAULT, wxFONTSTYLE_NORMAL, wxFONTWEIGHT_NORMAL);
+    mainText->SetFont(font);
+    mainSizer->Add(mainText, 0, wxALIGN_CENTER | wxALL, 10);
 
-    wxBoxSizer* lNameSizer = new wxBoxSizer(wxHORIZONTAL);
-    lNameSizer->Add(new wxStaticText(this, wxID_ANY, "Last Name:"),
-                    0, wxALIGN_CENTER_VERTICAL | wxALL, 5);
-    lNameCtrl = new wxTextCtrl(this, wxID_ANY, wxEmptyString);
-    lNameSizer->Add(lNameCtrl, 1, wxEXPAND | wxALL, 5);
-    mainSizer->Add(lNameSizer, 0, wxEXPAND);
-
-    wxBoxSizer* phoneSizer = new wxBoxSizer(wxHORIZONTAL);
-    phoneSizer->Add(new wxStaticText(this, wxID_ANY, "Phone (ex. 123-456-7890):"),
-                    0, wxALIGN_CENTER_VERTICAL | wxALL, 5);
-    phoneCtrl = new wxTextCtrl(this, wxID_ANY, wxEmptyString);
-    phoneSizer->Add(phoneCtrl, 1, wxEXPAND | wxALL, 5);
-    mainSizer->Add(phoneSizer, 0, wxEXPAND);
-
-    wxBoxSizer* emailSizer = new wxBoxSizer(wxHORIZONTAL);
-    emailSizer->Add(new wxStaticText(this, wxID_ANY, "Email:"),
-                    0, wxALIGN_CENTER_VERTICAL | wxALL, 5);
-    emailCtrl = new wxTextCtrl(this, wxID_ANY, wxEmptyString);
-    emailSizer->Add(emailCtrl, 1, wxEXPAND | wxALL, 5);
-    mainSizer->Add(emailSizer, 0, wxEXPAND);
-
-    wxBoxSizer* addressSizer = new wxBoxSizer(wxHORIZONTAL);
-    addressSizer->Add(new wxStaticText(this, wxID_ANY, "Address:"),
-                    0, wxALIGN_CENTER_VERTICAL | wxALL, 5);
-    addressCtrl = new wxTextCtrl(this, wxID_ANY, wxEmptyString);
-    addressSizer->Add(addressCtrl, 1, wxEXPAND | wxALL, 5);
-    mainSizer->Add(addressSizer, 0, wxEXPAND);
-
-    wxBoxSizer* citySizer = new wxBoxSizer(wxHORIZONTAL);
-    citySizer->Add(new wxStaticText(this, wxID_ANY, "City:"),
-                      0, wxALIGN_CENTER_VERTICAL | wxALL, 5);
-    cityCtrl = new wxTextCtrl(this, wxID_ANY, wxEmptyString);
-    citySizer->Add(cityCtrl, 1, wxEXPAND | wxALL, 5);
-    mainSizer->Add(citySizer, 0, wxEXPAND);
-
-    wxBoxSizer* zipSizer = new wxBoxSizer(wxHORIZONTAL);
-    zipSizer->Add(new wxStaticText(this, wxID_ANY, "Zipcode:"),
-                   0, wxALIGN_CENTER_VERTICAL | wxALL, 5);
-    zipCtrl = new wxTextCtrl(this, wxID_ANY, wxEmptyString);
-    zipSizer->Add(zipCtrl, 1, wxEXPAND | wxALL, 5);
-    mainSizer->Add(zipSizer, 0, wxEXPAND);
-
-    wxBoxSizer* stateSizer = new wxBoxSizer(wxHORIZONTAL);
-    stateSizer->Add(new wxStaticText(this, wxID_ANY, "State:"),
-                   0, wxALIGN_CENTER_VERTICAL | wxALL, 5);
-    stateCtrl = new wxTextCtrl(this, wxID_ANY, wxEmptyString);
-    stateSizer->Add(stateCtrl, 1, wxEXPAND | wxALL, 5);
-    mainSizer->Add(stateSizer, 0, wxEXPAND);
+    AddTextCtrl(gridSizer, "First Name:", fNameCtrl, 1);
+    AddTextCtrl(gridSizer, "Last Name:", lNameCtrl, 2);
+    AddTextCtrl(gridSizer, "Phone (ex. 123-456-7890):", phoneCtrl, 3);
+    AddTextCtrl(gridSizer, "Email Address:", emailCtrl, 4);
+    AddTextCtrl(gridSizer, "Address (Street and #):", addressCtrl, 5);
+    AddTextCtrl(gridSizer, "City:", cityCtrl, 6);
+    AddTextCtrl(gridSizer, "Zipcode:", zipCtrl, 7);
+    AddTextCtrl(gridSizer, "State:", stateCtrl, 8);
+    mainSizer->Add(gridSizer, 0, wxALIGN_CENTER | wxALL, 10);
 
     submitButton = new wxButton(this, ID_SUBMIT, "Submit");
     mainSizer->Add(submitButton, 0, wxALIGN_CENTER | wxALL, 10);
 
-    SetSizerAndFit(mainSizer);
+    SetSizer(mainSizer);
 
     Bind(wxEVT_COMMAND_BUTTON_CLICKED, &InsertDialog::OnSubmit, this, ID_SUBMIT);
+}
+
+void InsertDialog::AddTextCtrl(wxGridBagSizer* gridSizer, const wxString& labelStr, wxTextCtrl*& textCtrl, int row) {
+    wxStaticText* label = new wxStaticText(this, wxID_ANY, labelStr,
+                                           wxDefaultPosition, wxDefaultSize, 0);
+    textCtrl = new wxTextCtrl(this, wxID_ANY, wxEmptyString,
+                              wxDefaultPosition, wxDefaultSize, 0);
+    textCtrl->SetMinSize(wxSize(200, -1));
+    gridSizer->Add(label, wxGBPosition(row, 0),wxGBSpan(1, 1),
+                   wxALIGN_RIGHT | wxALL, 5);
+    gridSizer->Add(textCtrl, wxGBPosition(row, 1), wxGBSpan(1, 1),
+                   wxEXPAND | wxALL, 5);
 }
 
 void InsertDialog::OnSubmit(wxCommandEvent& event) {
@@ -122,6 +94,9 @@ void InsertDialog::OnSubmit(wxCommandEvent& event) {
 
     DBManager* dbManagerPtr = DBManager::getInstance();
     dbManagerPtr->insertClientToDB(client);
+
+    wxString success = "Client " + client.getLastName() + " recorded in the database!";
+    wxMessageBox(success, "Success", wxOK | wxICON_INFORMATION);
 
     EndModal(ID_SUBMIT);
 }
