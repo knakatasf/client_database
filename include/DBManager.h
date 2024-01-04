@@ -15,43 +15,64 @@
 #include "xlnt/xlnt.hpp"
 #include <cstring>
 
-
 class DBManager {
 public:
-    DBManager() : driver{nullptr}, con{nullptr} {}
     ~DBManager() { delete con; }
+    DBManager(const DBManager& obj) = delete;
 
-    void executeMethod();
-    int chooseMenu();
+    static DBManager* getInstance();
 
-    void connect(const std::string&, const std::string&, const std::string&, const std::string&);
     void createDB(const std::string&);
+    void connect(const std::string&, const std::string&, const std::string&, const std::string&);
 
-    void insertNewClient();
-    std::vector<Client> searchClient();
-    void editClient();
-    void deleteClient();
-    void importFromExcel();
+    void insertClientToDB(const Client&);
 
 private:
+    static DBManager* dbPtr;
     sql::mysql::MySQL_Driver* driver {nullptr};
     sql::Connection* con {nullptr};
 
-    // helper functions
+    DBManager() : driver{nullptr}, con{nullptr} {}
+
     void useDB();
     void createTable(const std::string&, sql::Statement* const);
-    std::vector<Client> searchByName();
-    std::vector<Client> searchByPhone();
-    std::vector<Client> searchByEmail();
 
-    void editClientName(Client&);
-    void editClientPhone(Client&);
-    void editClientEmail(Client&);
-    void editClientAddress(Client&);
-
-    std::vector<Client> createClientVec(std::vector<Client>&, sql::ResultSet*);
-
-    void insertClientToDB(const Client&);
 };
+
+
+//class DBManager {
+//public:
+//    DBManager() : driver{nullptr}, con{nullptr} {}
+//    ~DBManager() { delete con; }
+//
+//    void executeMethod();
+//    int chooseMenu();
+//
+//    void connect(const std::string&, const std::string&, const std::string&, const std::string&);
+//    void createDB(const std::string&);
+//
+//    void insertNewClient();
+//    void insertClientToDB(const Client&);
+//    std::vector<Client> searchClient();
+//    void editClient();
+//    void deleteClient();
+//    void importFromExcel();
+//
+//private:
+//    sql::mysql::MySQL_Driver* driver {nullptr};
+//    sql::Connection* con {nullptr};
+//
+//    // helper functions
+//    std::vector<Client> searchByName();
+//    std::vector<Client> searchByPhone();
+//    std::vector<Client> searchByEmail();
+//
+//    void editClientName(Client&);
+//    void editClientPhone(Client&);
+//    void editClientEmail(Client&);
+//    void editClientAddress(Client&);
+//
+//    std::vector<Client> createClientVec(std::vector<Client>&, sql::ResultSet*);
+//};
 
 #endif

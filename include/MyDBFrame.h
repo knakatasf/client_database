@@ -12,14 +12,12 @@ public:
               const wxString&, const wxPoint&, const wxSize&);
 
     void OnInsert(wxCommandEvent&);
-    void OnSearch(wxCommandEvent&) { dbManager.searchClient(); }
-    void OnEdit(wxCommandEvent&) { dbManager.editClient(); }
-    void OnDelete(wxCommandEvent&) { dbManager.deleteClient(); }
-    void OnImport(wxCommandEvent&) { dbManager.importFromExcel(); }
+//    void OnSearch(wxCommandEvent&) { dbManager.searchClient(); }
+//    void OnEdit(wxCommandEvent&) { dbManager.editClient(); }
+//    void OnDelete(wxCommandEvent&) { dbManager.deleteClient(); }
+//    void OnImport(wxCommandEvent&) { dbManager.importFromExcel(); }
 
 private:
-    DBManager dbManager;
-
     wxButton* insertButton;
     wxButton* searchButton;
     wxButton* editButton;

@@ -7,8 +7,8 @@ MyDBFrame::MyDBFrame(const string& host, const string& user, const string& passw
                      const wxString& title, const wxPoint& pos, const wxSize& size)
     : wxFrame(NULL, wxID_ANY, title, pos, size) {
 
-    dbManager = DBManager();
-    dbManager.connect(host, user, password, db);
+    DBManager* dbManagerPtr = DBManager::getInstance();
+    dbManagerPtr->connect(host, user, password, db);
 
     this->SetBackgroundColour(wxColour(*wxWHITE));
 
@@ -33,10 +33,10 @@ MyDBFrame::MyDBFrame(const string& host, const string& user, const string& passw
     SetSizer(vBox);
 
     insertButton->Bind(wxEVT_BUTTON, &MyDBFrame::OnInsert, this);
-    searchButton->Bind(wxEVT_BUTTON, &MyDBFrame::OnSearch, this);
-    editButton->Bind(wxEVT_BUTTON, &MyDBFrame::OnEdit, this);
-    deleteButton->Bind(wxEVT_BUTTON, &MyDBFrame::OnDelete, this);
-    importButton->Bind(wxEVT_BUTTON, &MyDBFrame::OnImport, this);
+//    searchButton->Bind(wxEVT_BUTTON, &MyDBFrame::OnSearch, this);
+//    editButton->Bind(wxEVT_BUTTON, &MyDBFrame::OnEdit, this);
+//    deleteButton->Bind(wxEVT_BUTTON, &MyDBFrame::OnDelete, this);
+//    importButton->Bind(wxEVT_BUTTON, &MyDBFrame::OnImport, this);
 }
 
 void MyDBFrame::OnInsert(wxCommandEvent& event) {

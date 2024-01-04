@@ -22,7 +22,7 @@ InsertDialog::InsertDialog(wxWindow* parent, wxWindowID id, const wxString& titl
     mainSizer->Add(lNameSizer, 0, wxEXPAND);
 
     wxBoxSizer* phoneSizer = new wxBoxSizer(wxHORIZONTAL);
-    phoneSizer->Add(new wxStaticText(this, wxID_ANY, "Phone Number:"),
+    phoneSizer->Add(new wxStaticText(this, wxID_ANY, "Phone (ex. 123-456-7890):"),
                     0, wxALIGN_CENTER_VERTICAL | wxALL, 5);
     phoneCtrl = new wxTextCtrl(this, wxID_ANY, wxEmptyString);
     phoneSizer->Add(phoneCtrl, 1, wxEXPAND | wxALL, 5);
@@ -68,7 +68,7 @@ InsertDialog::InsertDialog(wxWindow* parent, wxWindowID id, const wxString& titl
 
     SetSizerAndFit(mainSizer);
 
-    Bind(wxEVT_BUTTON, &InsertDialog::OnSubmit, this, ID_SUBMIT);
+    Bind(wxEVT_COMMAND_BUTTON_CLICKED, &InsertDialog::OnSubmit, this, ID_SUBMIT);
 }
 
 void InsertDialog::OnSubmit(wxCommandEvent& event) {
@@ -84,10 +84,44 @@ void InsertDialog::OnSubmit(wxCommandEvent& event) {
     Client client = Client();
 
     if (!client.setFirstName(fName.ToStdString())) {
-        wxMessageBox("Invalid name.. Please only use alphabets and no whitespace.",
+        wxMessageBox("Invalid first name.. Please only use alphabets and no whitespace.",
                      "Error", wxOK | wxICON_ERROR);
         return;
     }
+    if (!client.setLastName(lName.ToStdString())) {
+        wxMessageBox("Invalid last name.. Please only use alphabets and no whitespace.",
+                     "Error", wxOK | wxICON_ERROR);
+        return;
+    }
+    if (!client.setPhoneNumber(phone.ToStdString())) {
+        wxMessageBox("Invalid phone number.. Please only use numbers and dashes.",
+                     "Error", wxOK | wxICON_ERROR);
+        return;
+    }
+    if (!client.setEmail(email.ToStdString())) {
+        wxMessageBox("Invalid email address.. Please use the correct format.",
+                     "Error", wxOK | wxICON_ERROR);
+        return;
+    }
+    if (!client.setCity(city.ToStdString())) {
+        wxMessageBox("Invalid city name.. Please only use alphabets and no whitespace.",
+                     "Error", wxOK | wxICON_ERROR);
+        return;
+    }
+    if (!client.setZipcode(zipcode.ToStdString())) {
+        wxMessageBox("Invalid zipcode.. Please only use numbers and no whitespace.",
+                     "Error", wxOK | wxICON_ERROR);
+        return;
+    }
+    if (!client.setState(state.ToStdString())) {
+        wxMessageBox("Invalid state name.. Please only use alphabet and no whitespace.",
+                     "Error", wxOK | wxICON_ERROR);
+        return;
+    }
+    client.setAddress(address.ToStdString());
+
+    DBManager* dbManagerPtr = DBManager::getInstance();
+    dbManagerPtr->insertClientToDB(client);
 
     EndModal(ID_SUBMIT);
 }
