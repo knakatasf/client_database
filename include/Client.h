@@ -38,6 +38,7 @@ public:
     void inputEmail();
     void inputAddress();
 
+    std::string toString() const;
     void displayClient();
 
     bool isValidName(const std::string&) const;

@@ -19,16 +19,12 @@ private:
     wxTextCtrl* cityCtrl;
     wxTextCtrl* zipCtrl;
     wxTextCtrl* stateCtrl;
-
     wxButton* submitButton;
 
-    enum {
-        ID_SUBMIT = wxID_HIGHEST + 1
-    };
-
-    void AddTextCtrl(wxGridBagSizer*, const wxString&, wxTextCtrl*&, int);
+    const int ID_SUBMIT = wxID_HIGHEST + 1;
 
     void OnSubmit(wxCommandEvent&);
+    void AddTextCtrl(wxGridBagSizer*, const wxString&, wxTextCtrl*&, int);
 };
 
 

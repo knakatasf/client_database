@@ -58,7 +58,7 @@
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 44,
+				"line" : 46,
 				"parent" : 0
 			},
 			{
@@ -160,7 +160,8 @@
 				3,
 				5,
 				8,
-				10
+				10,
+				12
 			]
 		}
 	],
@@ -254,7 +255,8 @@
 				3,
 				5,
 				8,
-				10
+				10,
+				12
 			]
 		},
 		{
@@ -266,7 +268,8 @@
 				6,
 				7,
 				9,
-				11
+				11,
+				13
 			]
 		}
 	],
@@ -336,6 +339,17 @@
 		{
 			"backtrace" : 1,
 			"path" : "include/InsertDialog.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/SearchDialog.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/SearchDialog.h",
 			"sourceGroupIndex" : 1
 		}
 	],

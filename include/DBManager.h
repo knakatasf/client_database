@@ -26,6 +26,9 @@ public:
     void connect(const std::string&, const std::string&, const std::string&, const std::string&);
 
     void insertClientToDB(const Client&);
+    std::vector<Client> searchByName(std::string);
+    std::vector<Client> searchByPhone(std::string);
+    std::vector<Client> searchByEmail(std::string);
 
 private:
     static DBManager* dbPtr;
@@ -37,6 +40,7 @@ private:
     void useDB();
     void createTable(const std::string&, sql::Statement* const);
 
+    std::vector<Client> createClientVec(std::vector<Client>&, sql::ResultSet*);
 };
 
 

@@ -164,6 +164,15 @@ void Client::inputAddress() {
     }
 }
 
+string Client::toString() const {
+    string response =
+            "Name: " + getLastName() + ", " + getFirstName()
+            + "\nPhone: " + getPhoneNumber()
+            + "\nEmail: " + getEmail()
+            + "\nAddress: " + getAddress() + ", " + getCity() + ", " + getState() + ", " + getZipcode();
+    return response;
+}
+
 void Client::displayClient() {
     cout << "\nName: " << getLastName() << ", " << getFirstName() << endl;
     cout << "Phone: " << getPhoneNumber() << endl;

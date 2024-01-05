@@ -57,6 +57,63 @@ void DBManager::insertClientToDB(const Client& tempClient) {
     }
 }
 
+std::vector<Client> DBManager::searchByName(string searchName) {
+    vector<Client> response;
+    if (con) {
+        useDB();
+
+        transform(searchName.begin(), searchName.end(), searchName.begin(), ::tolower);
+
+        sql::Statement* stmt = con->createStatement();
+        string searchQuery =
+                "SELECT * FROM clients WHERE LOWER(LastName) LIKE '%" + searchName
+                + "%' OR LOWER(FirstName) LIKE '%" + searchName + "%'";
+        sql::ResultSet* res = stmt->executeQuery(searchQuery);
+
+        if (res->rowsCount() != 0) createClientVec(response, res);
+
+        delete stmt;
+        delete res;
+    }
+    return response;
+}
+
+std::vector<Client> DBManager::searchByPhone(string searchPhone) {
+    vector<Client> response;
+    if (con) {
+        useDB();
+
+        sql::Statement *stmt = con->createStatement();
+        string searchQuery =
+                "SELECT * FROM clients WHERE PhoneNumber LIKE '%" + searchPhone + "%'";
+        sql::ResultSet *res = stmt->executeQuery(searchQuery);
+
+        if (res->rowsCount() != 0) createClientVec(response, res);
+
+        delete stmt;
+        delete res;
+    }
+    return response;
+}
+
+std::vector<Client> DBManager::searchByEmail(string searchEmail) {
+    vector<Client> response;
+    if (con) {
+        useDB();
+
+        sql::Statement *stmt = con->createStatement();
+        string searchQuery =
+                "SELECT * FROM clients WHERE Email LIKE '%" + searchEmail + "%'";
+        sql::ResultSet *res = stmt->executeQuery(searchQuery);
+
+        if (res->rowsCount() != 0) createClientVec(response, res);
+
+        delete stmt;
+        delete res;
+    }
+    return response;
+}
+
 void DBManager::useDB() {
     if (con) {
         sql::Statement* useStmt = con->createStatement();
@@ -83,6 +140,24 @@ void DBManager::createTable(const string& dbName, sql::Statement* const stmt) {
     stmt->execute(createTableQuery);
 
     // createDB will delete stmt pointer.
+}
+
+vector<Client> DBManager::createClientVec(vector<Client>& resVec, sql::ResultSet* res) {
+    while (res->next()) {
+        Client tempClient;
+        tempClient.setClientID(res->getInt("ClientID"));
+        tempClient.setFirstName(res->getString("FirstName"));
+        tempClient.setLastName(res->getString("LastName"));
+        tempClient.setPhoneNumber(res->getString("PhoneNumber"));
+        tempClient.setEmail(res->getString("Email"));
+        tempClient.setAddress(res->getString("Address"));
+        tempClient.setCity(res->getString("City"));
+        tempClient.setZipcode(res->getString("Zipcode"));
+        tempClient.setState(res->getString("State"));
+
+        resVec.push_back(tempClient);
+    }
+    return resVec;
 }
 
 //void DBManager::executeMethod() {
@@ -438,20 +513,5 @@ void DBManager::createTable(const string& dbName, sql::Statement* const stmt) {
 //    }
 //}
 //
-//vector<Client> DBManager::createClientVec(vector<Client>& resVec, sql::ResultSet* res) {
-//    while (res->next()) {
-//        Client tempClient;
-//        tempClient.setClientID(res->getInt("ClientID"));
-//        tempClient.setFirstName(res->getString("FirstName"));
-//        tempClient.setLastName(res->getString("LastName"));
-//        tempClient.setPhoneNumber(res->getString("PhoneNumber"));
-//        tempClient.setEmail(res->getString("Email"));
-//        tempClient.setAddress(res->getString("Address"));
-//        tempClient.setCity(res->getString("City"));
-//        tempClient.setZipcode(res->getString("Zipcode"));
-//        tempClient.setState(res->getString("State"));
-//
-//        resVec.push_back(tempClient);
-//    }
-//    return resVec;
+
 //}

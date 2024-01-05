@@ -5,17 +5,11 @@
 #include <wx/wx.h>
 #include "DBManager.h"
 #include "InsertDialog.h"
+#include "SearchDialog.h"
 
 class MyDBFrame : public wxFrame {
 public:
-    MyDBFrame(const std::string&, const std::string&, const std::string&, const std::string&,
-              const wxString&, const wxPoint&, const wxSize&);
-
-    void OnInsert(wxCommandEvent&);
-//    void OnSearch(wxCommandEvent&) { dbManager.searchClient(); }
-//    void OnEdit(wxCommandEvent&) { dbManager.editClient(); }
-//    void OnDelete(wxCommandEvent&) { dbManager.deleteClient(); }
-//    void OnImport(wxCommandEvent&) { dbManager.importFromExcel(); }
+    MyDBFrame(const std::string&, const std::string&, const std::string&, const std::string&, const wxString&);
 
 private:
     wxButton* insertButton;
@@ -23,6 +17,21 @@ private:
     wxButton* editButton;
     wxButton* deleteButton;
     wxButton* importButton;
+
+    enum {
+        ID_INSERT = wxID_HIGHEST + 1,
+        ID_SEARCH,
+        ID_EDIT,
+        ID_DELETE,
+        ID_IMPORT
+    };
+
+    void OnInsert(wxCommandEvent&);
+    void OnSearch(wxCommandEvent&);
+//    void OnEdit(wxCommandEvent&) { dbManager.editClient(); }
+//    void OnDelete(wxCommandEvent&) { dbManager.deleteClient(); }
+//    void OnImport(wxCommandEvent&) { dbManager.importFromExcel(); }
+
 };
 
 #endif

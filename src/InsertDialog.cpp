@@ -32,15 +32,11 @@ InsertDialog::InsertDialog(wxWindow* parent, wxWindowID id, const wxString& titl
 }
 
 void InsertDialog::AddTextCtrl(wxGridBagSizer* gridSizer, const wxString& labelStr, wxTextCtrl*& textCtrl, int row) {
-    wxStaticText* label = new wxStaticText(this, wxID_ANY, labelStr,
-                                           wxDefaultPosition, wxDefaultSize, 0);
-    textCtrl = new wxTextCtrl(this, wxID_ANY, wxEmptyString,
-                              wxDefaultPosition, wxDefaultSize, 0);
+    wxStaticText* label = new wxStaticText(this, wxID_ANY, labelStr,wxDefaultPosition, wxDefaultSize, 0);
+    textCtrl = new wxTextCtrl(this, wxID_ANY, wxEmptyString,wxDefaultPosition, wxDefaultSize, 0);
     textCtrl->SetMinSize(wxSize(200, -1));
-    gridSizer->Add(label, wxGBPosition(row, 0),wxGBSpan(1, 1),
-                   wxALIGN_RIGHT | wxALL, 5);
-    gridSizer->Add(textCtrl, wxGBPosition(row, 1), wxGBSpan(1, 1),
-                   wxEXPAND | wxALL, 5);
+    gridSizer->Add(label, wxGBPosition(row, 0),wxGBSpan(1, 1),wxALIGN_RIGHT | wxALL, 5);
+    gridSizer->Add(textCtrl, wxGBPosition(row, 1), wxGBSpan(1, 1),wxEXPAND | wxALL, 5);
 }
 
 void InsertDialog::OnSubmit(wxCommandEvent& event) {

@@ -35,7 +35,9 @@ add_executable(Client_Database
         include/MyDBApp.h
         include/MyDBApp.h
         src/InsertDialog.cpp
-        include/InsertDialog.h)
+        include/InsertDialog.h
+        src/SearchDialog.cpp
+        include/SearchDialog.h)
 
 target_include_directories(Client_Database
         PRIVATE ${wxWidgets_INCLUDE_DIRS}
