@@ -132,3 +132,11 @@
 1272	1328	1704512563661546518	Client_Database	cde97ce02d0704ec
 4	1303	1704512679947452813	CMakeFiles/Client_Database.dir/src/ResultEditDialog.cpp.o	793f899f99797029
 1304	1360	1704512680009191232	Client_Database	cde97ce02d0704ec
+7	1257	1704582342937068009	CMakeFiles/Client_Database.dir/src/DBManager.cpp.o	b700dbff7d39ba20
+7	1983	1704582343677465930	CMakeFiles/Client_Database.dir/src/MyDBApp.cpp.o	2eddd9578ff371b6
+5	1996	1704582343690629197	CMakeFiles/Client_Database.dir/src/main.cpp.o	701d35cfb235c0fb
+7	2009	1704582343703360518	CMakeFiles/Client_Database.dir/src/MyDBFrame.cpp.o	cd9365f508648fd1
+7	2043	1704582343736154439	CMakeFiles/Client_Database.dir/src/SearchDialog.cpp.o	94abefd4eb997903
+7	2130	1704582343825502807	CMakeFiles/Client_Database.dir/src/InsertDialog.cpp.o	f3ef443f45cd1f23
+1263	2707	1704582344403154173	CMakeFiles/Client_Database.dir/src/ResultEditDialog.cpp.o	793f899f99797029
+2708	2780	1704582344481176178	Client_Database	cde97ce02d0704ec

@@ -42,7 +42,7 @@ void SearchDialog::OnSearch(wxCommandEvent& event) {
         searchByDialog->ShowModal();
         searchByDialog->Destroy();
     } else if (isDeleteVer) {
-        SearchByDialog* searchByDialog = new SearchByDialog(this, wxID_ANY, title, byWhat, true);
+        SearchByDialog* searchByDialog = new SearchByDialog(this, wxID_ANY, title, byWhat, false, true);
         searchByDialog->ShowModal();
         searchByDialog->Destroy();
     } else {
@@ -97,8 +97,8 @@ void SearchByDialog::OnSearch(wxCommandEvent& event) {
         ResultEditDialog* editDialog = new ResultEditDialog(response);
         editDialog->ShowModal();
     } else if (isDeleteVer) {
-        ResultEditDialog* editDialog = new ResultEditDialog(response);
-        editDialog->ShowModal();
+        ResultEditDialog* deleteDialog = new ResultEditDialog(response, true);
+        deleteDialog->ShowModal();
     } else {
         SearchResultDialog* resultFrame = new SearchResultDialog(response);
         resultFrame->ShowModal();

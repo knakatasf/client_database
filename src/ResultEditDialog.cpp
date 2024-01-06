@@ -2,9 +2,9 @@
 
 using namespace std;
 
-ResultEditDialog::ResultEditDialog(const std::vector<Client> &response)
+ResultEditDialog::ResultEditDialog(const std::vector<Client> &response, bool isDeleteVer)
     : wxDialog(NULL, wxID_ANY, "Search Results", wxDefaultPosition, wxDefaultSize),
-      response(response) {
+      response(response), isDelete{isDeleteVer} {
 
     wxBoxSizer *mainSizer = new wxBoxSizer(wxVERTICAL);
 
@@ -15,9 +15,13 @@ ResultEditDialog::ResultEditDialog(const std::vector<Client> &response)
         mainSizer->Add(clientText, 0, wxALL, 5);
 
         const int eachId = firstIndex + index;
-        wxButton* editButton = new wxButton(this, eachId, "EDIT");
-        mainSizer->Add(editButton, 0, wxALIGN_CENTER | wxALL, 5);
-        editButton->Bind(wxEVT_COMMAND_BUTTON_CLICKED, &ResultEditDialog::OnEdit, this, eachId);
+        wxButton* button = nullptr;
+        if (isDeleteVer) button = new wxButton(this, eachId, "DELETE");
+        else button = new wxButton(this, eachId, "EDIT");
+        mainSizer->Add(button, 0, wxALIGN_CENTER | wxALL, 5);
+
+        if (isDeleteVer) button->Bind(wxEVT_COMMAND_BUTTON_CLICKED, &ResultEditDialog::OnDelete, this, eachId);
+        else button->Bind(wxEVT_COMMAND_BUTTON_CLICKED, &ResultEditDialog::OnEdit, this, eachId);
         index++;
     }
     SetSizerAndFit(mainSizer);
@@ -31,6 +35,19 @@ void ResultEditDialog::OnEdit(wxCommandEvent& event) {
     EditByDialog* editByDialog = new EditByDialog(this, wxID_ANY, title, target);
     editByDialog->ShowModal();
     editByDialog->Destroy();
+}
+
+void ResultEditDialog::OnDelete(wxCommandEvent& event) {
+    int index = event.GetId() - firstIndex - 1;
+    Client target = response[index];
+
+    string message = "Do you really want to delete " + target.getLastName() + "'s data?";
+    int result = wxMessageBox(message, "Confirmation", wxYES_NO | wxICON_QUESTION, this);
+    if (result == wxYES) {
+        DBManager* dbManager = DBManager::getInstance();
+        dbManager->deleteClient(target);
+        wxMessageBox("Client data deleted.", "Information", wxOK | wxICON_INFORMATION, this);
+    }
 }
 
 EditByDialog::EditByDialog(wxWindow* parent, wxWindowID id, const wxString& title, Client& target)

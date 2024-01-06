@@ -32,11 +32,8 @@ MyDBFrame::MyDBFrame(const string& host, const string& user, const string& passw
     Bind(wxEVT_COMMAND_BUTTON_CLICKED, &MyDBFrame::OnInsert, this, ID_INSERT);
     Bind(wxEVT_COMMAND_BUTTON_CLICKED, &MyDBFrame::OnSearch, this, ID_SEARCH);
     Bind(wxEVT_COMMAND_BUTTON_CLICKED, &MyDBFrame::OnEdit, this, ID_EDIT);
+    Bind(wxEVT_COMMAND_BUTTON_CLICKED, &MyDBFrame::OnDelete, this, ID_DELETE);
 
-//    searchButton->Bind(wxEVT_BUTTON, &MyDBFrame::OnSearch, this);
-//    editButton->Bind(wxEVT_BUTTON, &MyDBFrame::OnEdit, this);
-//    deleteButton->Bind(wxEVT_BUTTON, &MyDBFrame::OnDelete, this);
-//    importButton->Bind(wxEVT_BUTTON, &MyDBFrame::OnImport, this);
 }
 
 void MyDBFrame::OnInsert(wxCommandEvent& event) {
@@ -53,6 +50,12 @@ void MyDBFrame::OnSearch(wxCommandEvent& event) {
 
 void MyDBFrame::OnEdit(wxCommandEvent& event) {
     SearchDialog* searchDialog = new SearchDialog(this, wxID_ANY, "Edit Client", true);
+    searchDialog->ShowModal();
+    searchDialog->Destroy();
+}
+
+void MyDBFrame::OnDelete(wxCommandEvent& event) {
+    SearchDialog* searchDialog = new SearchDialog(this, wxID_ANY, "Edit Client", false, true);
     searchDialog->ShowModal();
     searchDialog->Destroy();
 }

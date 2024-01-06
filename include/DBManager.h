@@ -33,6 +33,7 @@ public:
     void editClientPhone(Client&);
     void editClientEmail(Client&);
     void editClientAddress(Client&);
+    void deleteClient(Client&);
 
 
 private:

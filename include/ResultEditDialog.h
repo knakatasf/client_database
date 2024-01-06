@@ -9,13 +9,15 @@
 
 class ResultEditDialog : public wxDialog {
 public:
-    ResultEditDialog(const std::vector<Client>& response);
+    ResultEditDialog(const std::vector<Client>& response, bool=false);
 
 private:
     std::vector<Client> response;
+    bool isDelete = false;
     int firstIndex;
 
     void OnEdit(wxCommandEvent&);
+    void OnDelete(wxCommandEvent&);
 };
 
 class EditByDialog : public wxDialog {
