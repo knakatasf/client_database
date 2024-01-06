@@ -29,6 +29,11 @@ public:
     std::vector<Client> searchByName(std::string);
     std::vector<Client> searchByPhone(std::string);
     std::vector<Client> searchByEmail(std::string);
+    void editClientName(Client&);
+    void editClientPhone(Client&);
+    void editClientEmail(Client&);
+    void editClientAddress(Client&);
+
 
 private:
     static DBManager* dbPtr;

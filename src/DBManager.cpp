@@ -114,6 +114,60 @@ std::vector<Client> DBManager::searchByEmail(string searchEmail) {
     return response;
 }
 
+void DBManager::editClientName(Client& target) {
+    if (con) {
+        sql::PreparedStatement* pstmt = con->prepareStatement(
+                "UPDATE clients SET FirstName = ?, LastName = ? WHERE ClientID = ?");
+        pstmt->setString(1, target.getFirstName());
+        pstmt->setString(2, target.getLastName());
+        pstmt->setInt(3, target.getClientID());
+        pstmt->execute();
+
+        delete pstmt;
+    }
+}
+
+void DBManager::editClientPhone(Client& target) {
+    if (con) {
+        sql::PreparedStatement* pstmt = con->prepareStatement(
+                "UPDATE clients SET PhoneNumber = ? WHERE ClientID = ?");
+        pstmt->setString(1, target.getPhoneNumber());
+        pstmt->setInt(2, target.getClientID());
+        pstmt->execute();
+
+        delete pstmt;
+    }
+}
+
+void DBManager::editClientEmail(Client& target) {
+    if (con) {
+        sql::PreparedStatement* pstmt = con->prepareStatement(
+                "UPDATE clients SET Email = ? WHERE ClientID = ?");
+        pstmt->setString(1, target.getEmail());
+        pstmt->setInt(2, target.getClientID());
+        pstmt->execute();
+
+        delete pstmt;
+        cout << "Client " << target.getLastName() << " updated!" << endl;
+    }
+}
+
+void DBManager::editClientAddress(Client& target) {
+    if (con) {
+        sql::PreparedStatement* pstmt = con->prepareStatement(
+                "UPDATE clients SET Address = ?, City = ?, Zipcode = ?, State = ? WHERE ClientID = ?");
+        pstmt->setString(1, target.getAddress());
+        pstmt->setString(2, target.getCity());
+        pstmt->setString(3, target.getZipcode());
+        pstmt->setString(4, target.getState());
+        pstmt->setInt(5, target.getClientID());
+        pstmt->execute();
+
+        delete pstmt;
+        cout << "Client " << target.getLastName() << " updated!" << endl;
+    }
+}
+
 void DBManager::useDB() {
     if (con) {
         sql::Statement* useStmt = con->createStatement();

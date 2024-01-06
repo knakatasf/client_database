@@ -28,7 +28,7 @@ private:
 
     void OnInsert(wxCommandEvent&);
     void OnSearch(wxCommandEvent&);
-//    void OnEdit(wxCommandEvent&) { dbManager.editClient(); }
+    void OnEdit(wxCommandEvent&);
 //    void OnDelete(wxCommandEvent&) { dbManager.deleteClient(); }
 //    void OnImport(wxCommandEvent&) { dbManager.importFromExcel(); }
 

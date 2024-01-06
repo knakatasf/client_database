@@ -3,11 +3,16 @@
 
 using namespace std;
 
-SearchDialog::SearchDialog(wxWindow* parent, wxWindowID id, const wxString& title)
-        : wxDialog(parent, id, title, wxDefaultPosition, wxSize(430, 200), wxDEFAULT_DIALOG_STYLE) {
+SearchDialog::SearchDialog(wxWindow* parent, wxWindowID id, const wxString& title, bool isEditVer, bool isDeleteVer)
+        : wxDialog(parent, id, title, wxDefaultPosition, wxSize(430, 200), wxDEFAULT_DIALOG_STYLE),
+          isEditVer{isEditVer}, isDeleteVer{isDeleteVer} {
     wxBoxSizer* mainSizer = new wxBoxSizer(wxVERTICAL);
 
-    wxStaticText* menuMessage = new wxStaticText(this, wxID_ANY,"What do you want to use to search for a client?");
+    string menuLabel = "What do you want to use to search for a client?";
+    if (isEditVer) menuLabel =  "What do you want to use to search for a client to edit?";
+    if (isDeleteVer) menuLabel = "What do you want to use to search for a client to delete?";
+
+    wxStaticText* menuMessage = new wxStaticText(this, wxID_ANY,menuLabel);
     wxFont font(15, wxDEFAULT, wxFONTSTYLE_NORMAL, wxFONTWEIGHT_NORMAL);
     menuMessage->SetFont(font);
     mainSizer->Add(menuMessage, 0, wxALIGN_CENTER | wxALL, 10);
@@ -31,15 +36,26 @@ void SearchDialog::OnSearch(wxCommandEvent& event) {
     string byWhat = searchTypes[id];
     string title = "Search by " + byWhat;
     transform(byWhat.begin(), byWhat.end(), byWhat.begin(), ::tolower);
-    
-    SearchByDialog* searchByDialog = new SearchByDialog(this, wxID_ANY, title, byWhat);
-    searchByDialog->ShowModal();
-    searchByDialog->Destroy();
+
+    if (isEditVer) {
+        SearchByDialog* searchByDialog = new SearchByDialog(this, wxID_ANY, title, byWhat, true);
+        searchByDialog->ShowModal();
+        searchByDialog->Destroy();
+    } else if (isDeleteVer) {
+        SearchByDialog* searchByDialog = new SearchByDialog(this, wxID_ANY, title, byWhat, true);
+        searchByDialog->ShowModal();
+        searchByDialog->Destroy();
+    } else {
+        SearchByDialog* searchByDialog = new SearchByDialog(this, wxID_ANY, title, byWhat);
+        searchByDialog->ShowModal();
+        searchByDialog->Destroy();
+    }
 }
 
-SearchByDialog::SearchByDialog(wxWindow* parent, wxWindowID id, const wxString& title, const string& byWhat)
+SearchByDialog::SearchByDialog(wxWindow* parent, wxWindowID id, const wxString& title,
+                               const string& byWhat, bool isEditVer, bool isDeleteVer)
         : wxDialog(parent, id, title, wxDefaultPosition, wxSize(430, 180), wxDEFAULT_DIALOG_STYLE),
-          byWhat{byWhat} {
+          byWhat{byWhat}, isEditVer{isEditVer}, isDeleteVer{isDeleteVer} {
     wxBoxSizer* mainSizer = new wxBoxSizer(wxVERTICAL);
 
     wxString mainLabel = "Please input " + byWhat + " of client:\n(partial " + byWhat + " is acceptable)";
@@ -77,6 +93,14 @@ void SearchByDialog::OnSearch(wxCommandEvent& event) {
         return;
     }
 
-    SearchResultDialog* resultFrame = new SearchResultDialog(response);
-    resultFrame->ShowModal();
+    if (isEditVer) {
+        ResultEditDialog* editDialog = new ResultEditDialog(response);
+        editDialog->ShowModal();
+    } else if (isDeleteVer) {
+        ResultEditDialog* editDialog = new ResultEditDialog(response);
+        editDialog->ShowModal();
+    } else {
+        SearchResultDialog* resultFrame = new SearchResultDialog(response);
+        resultFrame->ShowModal();
+    }
 }

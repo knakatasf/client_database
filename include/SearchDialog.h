@@ -2,18 +2,18 @@
 #define SEARCHDIALOG_H
 
 #include <vector>
-#include <sstream>
 #include <unordered_map>
 #include <cstring>
 #include <wx/wx.h>
 #include <wx/gbsizer.h>
 #include "Client.h"
 #include "DBManager.h"
+#include "ResultEditDialog.h"
 
 
 class SearchDialog : public wxDialog {
 public:
-    SearchDialog(wxWindow*, wxWindowID, const wxString&);
+    SearchDialog(wxWindow*, wxWindowID, const wxString&, bool=false, bool=false);
 
 private:
     wxButton* nameButton;
@@ -31,19 +31,25 @@ private:
              {ID_SEARCH_PHONE, "Phone Number"},
              {ID_SEARCH_EMAIL, "Email"}};
 
+    bool isEditVer = false;
+    bool isDeleteVer = false;
+
     void OnSearch(wxCommandEvent&);
 };
 
 
 class SearchByDialog : public wxDialog {
 public:
-    SearchByDialog(wxWindow*, wxWindowID, const wxString&, const std::string&);
+    SearchByDialog(wxWindow*, wxWindowID, const wxString&, const std::string&, bool=false, bool=false);
 
 private:
     wxTextCtrl* searchCtrl;
     wxButton* searchButton;
     const int ID_SEARCH = wxID_HIGHEST + 1;
     const std::string byWhat;
+
+    bool isEditVer = false;
+    bool isDeleteVer = false;
 
     void OnSearch(wxCommandEvent&);
 };
@@ -59,9 +65,7 @@ public:
 
         int index = 1;
         for (Client client : response) {
-            std::stringstream ss;
-            ss << "Index " << index << ":\n" << client.toString();
-            wxStaticText* clientText = new wxStaticText(this, wxID_ANY, ss.str());
+            wxStaticText* clientText = new wxStaticText(this, wxID_ANY, client.toString());
             mainSizer->Add(clientText, 0, wxALL, 5);
             index++;
         }
