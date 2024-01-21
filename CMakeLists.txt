@@ -40,6 +40,8 @@ add_executable(Client_Database
         include/SearchDialog.h
         src/ResultEditDialog.cpp
         include/ResultEditDialog.h
+        src/main.cpp
+        src/main.cpp
 )
 
 target_include_directories(Client_Database

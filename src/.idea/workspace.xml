@@ -7,7 +7,184 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb7ec6d0-d839-4323-821c-1167d6ed7f4a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/.cmake/api/v1/reply/cache-v2-e4f472bd37e985e5abd4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-cc78a8786b000b0191ad.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-2ee2c701196c82a25178.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/.cmake/api/v1/reply/directory-_deps.xlnt-build-Debug-7b99ceeb1bbf834389e3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/.cmake/api/v1/reply/directory-_deps.xlnt-build.source-Debug-bb9468c137edcddf66be.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/.cmake/api/v1/reply/directory-_deps.xlnt-build.source.third-party.libstudxml-Debug-f75848e60fe9e418751f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/.cmake/api/v1/reply/index-2024-01-06T01-34-14-0757.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/.cmake/api/v1/reply/target-Client_Database-Debug-7fe6ba46f6b8df30d662.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/.cmake/api/v1/reply/target-libstudxml-Debug-df1612ac70db01ea730d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/.cmake/api/v1/reply/target-uninstall-Debug-21b3130422dbbee6ce5f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/.cmake/api/v1/reply/target-xlnt-Debug-a19eda123d5a50db1a54.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-7908ad211abb8eeafc96.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/.ninja_deps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/.ninja_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.27.8/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.27.8/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.27.8/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.27.8/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.27.8/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.27.8/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.27.8/CompilerIdC/CMakeCCompilerId.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.27.8/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.27.8/CompilerIdCXX/CMakeCXXCompilerId.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Client_Database.dir/Client.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Client_Database.dir/DBManager.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Client_Database.dir/MyDBApp.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Client_Database.dir/MyDBFrame.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Client_Database.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Client_Database.dir/src/Client.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Client_Database.dir/src/DBManager.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Client_Database.dir/src/EditDialog.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Client_Database.dir/src/InsertDialog.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Client_Database.dir/src/MyDBApp.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Client_Database.dir/src/MyDBFrame.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Client_Database.dir/src/ResultEditDialog.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Client_Database.dir/src/SearchDialog.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Client_Database.dir/src/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/Client_Database" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/CTestTestfile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/CMakeFiles/Export/e52a6e9ff109dbcb9b9414d437d968ce/XlntTargets-debug.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/CMakeFiles/Export/e52a6e9ff109dbcb9b9414d437d968ce/XlntTargets.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/CMakeFiles/xlnt.dir/__/third-party/miniz/miniz.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/CMakeFiles/xlnt.dir/cell/cell.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/CMakeFiles/xlnt.dir/cell/cell_reference.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/CMakeFiles/xlnt.dir/cell/comment.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/CMakeFiles/xlnt.dir/cell/hyperlink.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/CMakeFiles/xlnt.dir/cell/index_types.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/CMakeFiles/xlnt.dir/cell/phonetic_run.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/CMakeFiles/xlnt.dir/cell/rich_text.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/CMakeFiles/xlnt.dir/cell/rich_text_run.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/CMakeFiles/xlnt.dir/detail/constants.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/CMakeFiles/xlnt.dir/detail/cryptography/aes.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/CMakeFiles/xlnt.dir/detail/cryptography/base64.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/CMakeFiles/xlnt.dir/detail/cryptography/compound_document.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/CMakeFiles/xlnt.dir/detail/cryptography/encryption_info.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/CMakeFiles/xlnt.dir/detail/cryptography/hash.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/CMakeFiles/xlnt.dir/detail/cryptography/sha.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/CMakeFiles/xlnt.dir/detail/cryptography/sha1.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/CMakeFiles/xlnt.dir/detail/cryptography/sha512.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/CMakeFiles/xlnt.dir/detail/cryptography/xlsx_crypto_consumer.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/CMakeFiles/xlnt.dir/detail/cryptography/xlsx_crypto_producer.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/CMakeFiles/xlnt.dir/detail/header_footer/header_footer_code.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/CMakeFiles/xlnt.dir/detail/implementations/cell_impl.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/CMakeFiles/xlnt.dir/detail/number_format/number_formatter.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/CMakeFiles/xlnt.dir/detail/serialization/custom_value_traits.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/CMakeFiles/xlnt.dir/detail/serialization/open_stream.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/CMakeFiles/xlnt.dir/detail/serialization/vector_streambuf.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/CMakeFiles/xlnt.dir/detail/serialization/xlsx_consumer.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/CMakeFiles/xlnt.dir/detail/serialization/xlsx_producer.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/CMakeFiles/xlnt.dir/detail/serialization/zstream.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/CMakeFiles/xlnt.dir/detail/unicode.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/CMakeFiles/xlnt.dir/drawing/spreadsheet_drawing.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/CMakeFiles/xlnt.dir/packaging/ext_list.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/CMakeFiles/xlnt.dir/packaging/manifest.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/CMakeFiles/xlnt.dir/packaging/relationship.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/CMakeFiles/xlnt.dir/packaging/uri.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/CMakeFiles/xlnt.dir/styles/alignment.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/CMakeFiles/xlnt.dir/styles/border.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/CMakeFiles/xlnt.dir/styles/color.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/CMakeFiles/xlnt.dir/styles/conditional_format.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/CMakeFiles/xlnt.dir/styles/fill.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/CMakeFiles/xlnt.dir/styles/font.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/CMakeFiles/xlnt.dir/styles/format.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/CMakeFiles/xlnt.dir/styles/number_format.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/CMakeFiles/xlnt.dir/styles/protection.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/CMakeFiles/xlnt.dir/styles/style.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/CMakeFiles/xlnt.dir/utils/date.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/CMakeFiles/xlnt.dir/utils/datetime.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/CMakeFiles/xlnt.dir/utils/exceptions.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/CMakeFiles/xlnt.dir/utils/path.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/CMakeFiles/xlnt.dir/utils/time.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/CMakeFiles/xlnt.dir/utils/timedelta.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/CMakeFiles/xlnt.dir/utils/variant.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/CMakeFiles/xlnt.dir/workbook/named_range.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/CMakeFiles/xlnt.dir/workbook/streaming_workbook_reader.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/CMakeFiles/xlnt.dir/workbook/streaming_workbook_writer.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/CMakeFiles/xlnt.dir/workbook/workbook.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/CMakeFiles/xlnt.dir/workbook/worksheet_iterator.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/CMakeFiles/xlnt.dir/worksheet/cell_iterator.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/CMakeFiles/xlnt.dir/worksheet/cell_vector.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/CMakeFiles/xlnt.dir/worksheet/header_footer.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/CMakeFiles/xlnt.dir/worksheet/page_margins.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/CMakeFiles/xlnt.dir/worksheet/page_setup.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/CMakeFiles/xlnt.dir/worksheet/phonetic_pr.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/CMakeFiles/xlnt.dir/worksheet/range.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/CMakeFiles/xlnt.dir/worksheet/range_iterator.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/CMakeFiles/xlnt.dir/worksheet/range_reference.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/CMakeFiles/xlnt.dir/worksheet/sheet_protection.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/CMakeFiles/xlnt.dir/worksheet/worksheet.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/CTestTestfile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/XlntConfig.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/XlntConfigVersion.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/cmake_uninstall.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/libxlntd.1.5.0.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/libxlntd.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/__/libstudxml/libstudxml/details/expat/xmlparse.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/__/libstudxml/libstudxml/details/expat/xmlrole.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/__/libstudxml/libstudxml/details/expat/xmltok.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/__/libstudxml/libstudxml/details/genx/char-props.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/__/libstudxml/libstudxml/details/genx/genx.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/__/libstudxml/libstudxml/parser.cxx.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/__/libstudxml/libstudxml/qname.cxx.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/__/libstudxml/libstudxml/serializer.cxx.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/__/libstudxml/libstudxml/value-traits.cxx.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/third-party/libstudxml/CTestTestfile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/third-party/libstudxml/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-build/source/xlnt.pc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-src" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-subbuild/.ninja_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-subbuild/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-subbuild/CMakeFiles/3.27.8/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-subbuild/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-subbuild/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-subbuild/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-subbuild/CMakeFiles/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-subbuild/CMakeFiles/xlnt-populate-complete" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-subbuild/CMakeFiles/xlnt-populate.dir/Labels.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-subbuild/CMakeFiles/xlnt-populate.dir/Labels.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-subbuild/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-subbuild/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-subbuild/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-subbuild/xlnt-populate-prefix/src/xlnt-populate-stamp/xlnt-populate-build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-subbuild/xlnt-populate-prefix/src/xlnt-populate-stamp/xlnt-populate-configure" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-subbuild/xlnt-populate-prefix/src/xlnt-populate-stamp/xlnt-populate-done" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-subbuild/xlnt-populate-prefix/src/xlnt-populate-stamp/xlnt-populate-download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-subbuild/xlnt-populate-prefix/src/xlnt-populate-stamp/xlnt-populate-gitclone-lastrun.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-subbuild/xlnt-populate-prefix/src/xlnt-populate-stamp/xlnt-populate-gitinfo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-subbuild/xlnt-populate-prefix/src/xlnt-populate-stamp/xlnt-populate-install" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-subbuild/xlnt-populate-prefix/src/xlnt-populate-stamp/xlnt-populate-mkdir" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-subbuild/xlnt-populate-prefix/src/xlnt-populate-stamp/xlnt-populate-patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-subbuild/xlnt-populate-prefix/src/xlnt-populate-stamp/xlnt-populate-patch-info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-subbuild/xlnt-populate-prefix/src/xlnt-populate-stamp/xlnt-populate-test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-subbuild/xlnt-populate-prefix/src/xlnt-populate-stamp/xlnt-populate-update-info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-subbuild/xlnt-populate-prefix/tmp/xlnt-populate-cfgcmd.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-subbuild/xlnt-populate-prefix/tmp/xlnt-populate-gitclone.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-subbuild/xlnt-populate-prefix/tmp/xlnt-populate-gitupdate.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/_deps/xlnt-subbuild/xlnt-populate-prefix/tmp/xlnt-populate-mkdirs.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/example.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,27 +202,27 @@
     <option name="majorVersion" value="2023" />
     <option name="minorVersion" value="3.2" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2aS1qGAeTxvQWVR3XyhwW2mBNpn" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "gui__version",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;gui__version&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -55,6 +232,9 @@
       <option name="presentableId" value="Default" />
       <updated>1704297354360</updated>
       <workItem from="1704297355405" duration="66000" />
+      <workItem from="1705811002488" duration="20000" />
+      <workItem from="1705812592810" duration="15000" />
+      <workItem from="1705812642331" duration="16000" />
     </task>
     <servers />
   </component>

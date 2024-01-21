@@ -1,0 +1,789 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="xlnt"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\_deps\;CMake Files\cmake-build-debug\_deps\xlnt-src\;CMake Files\cmake-build-debug\_deps\xlnt-src\source\;CMake Files\cmake-build-debug\_deps\xlnt-src\cmake\;CMake Files\cmake-build-debug\_deps\xlnt-src\third-party\;CMake Files\cmake-build-debug\_deps\xlnt-src\third-party\libstudxml.build\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-build/source"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-build/source/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-build/source/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-build/source/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-build/source/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="xlnt">
+				<Option output="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-build/source/libxlntd.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-build/source"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DXLNT_SHARED=1"/>
+					<Add directory="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/../include"/>
+					<Add directory="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/../source"/>
+					<Add directory="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/../source/../third-party/libstudxml"/>
+					<Add directory="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/../source/../third-party/miniz"/>
+					<Add directory="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/../source/../third-party/utfcpp"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-build/source/Makefile&quot;  VERBOSE=1 xlnt"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-build/source/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-build/source/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-build/source/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="xlnt/fast">
+				<Option output="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-build/source/libxlntd.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-build/source"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DXLNT_SHARED=1"/>
+					<Add directory="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/../include"/>
+					<Add directory="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/../source"/>
+					<Add directory="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/../source/../third-party/libstudxml"/>
+					<Add directory="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/../source/../third-party/miniz"/>
+					<Add directory="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/../source/../third-party/utfcpp"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-build/source/Makefile&quot;  VERBOSE=1 xlnt/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-build/source/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-build/source/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-build/source/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uninstall">
+				<Option working_dir="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-build/source"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-build/source/Makefile&quot;  VERBOSE=1 uninstall"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-build/source/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-build/source/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-build/source/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libstudxml">
+				<Option output="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/libstudxml.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-build/source/third-party/libstudxml"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DLIBSTUDXML_STATIC_LIB=1"/>
+					<Add directory="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/third-party/libstudxml.build/../libstudxml"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-build/source/third-party/libstudxml/Makefile&quot;  VERBOSE=1 libstudxml"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-build/source/third-party/libstudxml/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-build/source/third-party/libstudxml/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-build/source/third-party/libstudxml/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libstudxml/fast">
+				<Option output="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/libstudxml.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-build/source/third-party/libstudxml"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DLIBSTUDXML_STATIC_LIB=1"/>
+					<Add directory="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/third-party/libstudxml.build/../libstudxml"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-build/source/third-party/libstudxml/Makefile&quot;  VERBOSE=1 libstudxml/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-build/source/third-party/libstudxml/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-build/source/third-party/libstudxml/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-build/source/third-party/libstudxml/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/__/libstudxml/libstudxml/details/expat/xmlparse.c.o">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/__/libstudxml/libstudxml/details/expat/xmlrole.c.o">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/__/libstudxml/libstudxml/details/expat/xmltok.c.o">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/__/libstudxml/libstudxml/details/genx/char-props.c.o">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/__/libstudxml/libstudxml/details/genx/genx.c.o">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/__/libstudxml/libstudxml/parser.cxx.o">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/__/libstudxml/libstudxml/qname.cxx.o">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/__/libstudxml/libstudxml/serializer.cxx.o">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/__/libstudxml/libstudxml/value-traits.cxx.o">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/include/xlnt/cell/cell.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/include/xlnt/cell/cell_reference.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/include/xlnt/cell/cell_type.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/include/xlnt/cell/comment.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/include/xlnt/cell/hyperlink.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/include/xlnt/cell/index_types.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/include/xlnt/cell/phonetic_run.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/include/xlnt/cell/rich_text.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/include/xlnt/cell/rich_text_run.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/include/xlnt/drawing/spreadsheet_drawing.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/include/xlnt/packaging/ext_list.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/include/xlnt/packaging/manifest.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/include/xlnt/packaging/relationship.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/include/xlnt/packaging/uri.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/include/xlnt/styles/alignment.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/include/xlnt/styles/border.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/include/xlnt/styles/color.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/include/xlnt/styles/conditional_format.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/include/xlnt/styles/fill.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/include/xlnt/styles/font.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/include/xlnt/styles/format.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/include/xlnt/styles/number_format.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/include/xlnt/styles/protection.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/include/xlnt/styles/style.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/include/xlnt/utils/calendar.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/include/xlnt/utils/date.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/include/xlnt/utils/datetime.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/include/xlnt/utils/exceptions.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/include/xlnt/utils/numeric.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/include/xlnt/utils/optional.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/include/xlnt/utils/path.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/include/xlnt/utils/scoped_enum_hash.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/include/xlnt/utils/time.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/include/xlnt/utils/timedelta.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/include/xlnt/utils/variant.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/include/xlnt/workbook/calculation_properties.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/include/xlnt/workbook/document_security.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/include/xlnt/workbook/external_book.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/include/xlnt/workbook/metadata_property.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/include/xlnt/workbook/named_range.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/include/xlnt/workbook/streaming_workbook_reader.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/include/xlnt/workbook/streaming_workbook_writer.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/include/xlnt/workbook/theme.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/include/xlnt/workbook/workbook.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/include/xlnt/workbook/workbook_view.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/include/xlnt/workbook/worksheet_iterator.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/include/xlnt/worksheet/cell_iterator.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/include/xlnt/worksheet/cell_vector.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/include/xlnt/worksheet/column_properties.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/include/xlnt/worksheet/header_footer.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/include/xlnt/worksheet/major_order.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/include/xlnt/worksheet/page_margins.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/include/xlnt/worksheet/page_setup.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/include/xlnt/worksheet/pane.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/include/xlnt/worksheet/phonetic_pr.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/include/xlnt/worksheet/print_options.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/include/xlnt/worksheet/range.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/include/xlnt/worksheet/range_iterator.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/include/xlnt/worksheet/range_reference.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/include/xlnt/worksheet/row_properties.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/include/xlnt/worksheet/selection.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/include/xlnt/worksheet/sheet_format_properties.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/include/xlnt/worksheet/sheet_pr.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/include/xlnt/worksheet/sheet_protection.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/include/xlnt/worksheet/sheet_view.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/include/xlnt/worksheet/worksheet.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/include/xlnt/xlnt.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/include/xlnt/xlnt_config.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/cell/cell.cpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/cell/cell_reference.cpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/cell/comment.cpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/cell/hyperlink.cpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/cell/index_types.cpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/cell/phonetic_run.cpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/cell/rich_text.cpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/cell/rich_text_run.cpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/detail/binary.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/detail/constants.cpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/detail/constants.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/detail/cryptography/aes.cpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/detail/cryptography/aes.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/detail/cryptography/base64.cpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/detail/cryptography/base64.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/detail/cryptography/cipher.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/detail/cryptography/compound_document.cpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/detail/cryptography/compound_document.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/detail/cryptography/encryption_info.cpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/detail/cryptography/encryption_info.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/detail/cryptography/hash.cpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/detail/cryptography/hash.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/detail/cryptography/sha.cpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/detail/cryptography/sha.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/detail/cryptography/sha1.c">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/detail/cryptography/sha512.c">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/detail/cryptography/value_traits.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/detail/cryptography/xlsx_crypto_consumer.cpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/detail/cryptography/xlsx_crypto_consumer.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/detail/cryptography/xlsx_crypto_producer.cpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/detail/cryptography/xlsx_crypto_producer.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/detail/default_case.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/detail/external/include_libstudxml.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/detail/external/include_windows.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/detail/header_footer/header_footer_code.cpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/detail/header_footer/header_footer_code.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/detail/implementations/cell_impl.cpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/detail/implementations/cell_impl.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/detail/implementations/conditional_format_impl.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/detail/implementations/format_impl.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/detail/implementations/formatting_record.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/detail/implementations/hyperlink_impl.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/detail/implementations/style_impl.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/detail/implementations/stylesheet.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/detail/implementations/workbook_impl.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/detail/implementations/worksheet_impl.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/detail/number_format/number_formatter.cpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/detail/number_format/number_formatter.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/detail/serialization/custom_value_traits.cpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/detail/serialization/custom_value_traits.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/detail/serialization/defined_name.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/detail/serialization/excel_thumbnail.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/detail/serialization/open_stream.cpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/detail/serialization/open_stream.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/detail/serialization/serialisation_helpers.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/detail/serialization/vector_streambuf.cpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/detail/serialization/vector_streambuf.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/detail/serialization/xlsx_consumer.cpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/detail/serialization/xlsx_consumer.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/detail/serialization/xlsx_producer.cpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/detail/serialization/xlsx_producer.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/detail/serialization/zstream.cpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/detail/serialization/zstream.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/detail/unicode.cpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/detail/unicode.hpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/drawing/spreadsheet_drawing.cpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/packaging/ext_list.cpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/packaging/manifest.cpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/packaging/relationship.cpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/packaging/uri.cpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/styles/alignment.cpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/styles/border.cpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/styles/color.cpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/styles/conditional_format.cpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/styles/fill.cpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/styles/font.cpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/styles/format.cpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/styles/number_format.cpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/styles/protection.cpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/styles/style.cpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/utils/date.cpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/utils/datetime.cpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/utils/exceptions.cpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/utils/path.cpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/utils/time.cpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/utils/timedelta.cpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/utils/variant.cpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/workbook/named_range.cpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/workbook/streaming_workbook_reader.cpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/workbook/streaming_workbook_writer.cpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/workbook/workbook.cpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/workbook/worksheet_iterator.cpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/worksheet/cell_iterator.cpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/worksheet/cell_vector.cpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/worksheet/header_footer.cpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/worksheet/page_margins.cpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/worksheet/page_setup.cpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/worksheet/phonetic_pr.cpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/worksheet/range.cpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/worksheet/range_iterator.cpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/worksheet/range_reference.cpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/worksheet/sheet_protection.cpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/worksheet/worksheet.cpp">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/content.hxx">
+			<Option target="libstudxml"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/details/expat/ascii.h">
+			<Option target="libstudxml"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/details/expat/asciitab.h">
+			<Option target="libstudxml"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/details/expat/config.h">
+			<Option target="libstudxml"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/details/expat/expat.h">
+			<Option target="libstudxml"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/details/expat/expat_external.h">
+			<Option target="libstudxml"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/details/expat/iasciitab.h">
+			<Option target="libstudxml"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/details/expat/internal.h">
+			<Option target="libstudxml"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/details/expat/latin1tab.h">
+			<Option target="libstudxml"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/details/expat/nametab.h">
+			<Option target="libstudxml"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/details/expat/utf8tab.h">
+			<Option target="libstudxml"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/details/expat/xmlparse.c">
+			<Option target="libstudxml"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/details/expat/xmlrole.c">
+			<Option target="libstudxml"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/details/expat/xmlrole.h">
+			<Option target="libstudxml"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/details/expat/xmltok.c">
+			<Option target="libstudxml"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/details/expat/xmltok.h">
+			<Option target="libstudxml"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/details/expat/xmltok_impl.h">
+			<Option target="libstudxml"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/details/genx/char-props.c">
+			<Option target="libstudxml"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/details/genx/genx.c">
+			<Option target="libstudxml"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/details/genx/genx.h">
+			<Option target="libstudxml"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/exception.hxx">
+			<Option target="libstudxml"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/forward.hxx">
+			<Option target="libstudxml"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/parser.cxx">
+			<Option target="libstudxml"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/parser.hxx">
+			<Option target="libstudxml"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/qname.cxx">
+			<Option target="libstudxml"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/qname.hxx">
+			<Option target="libstudxml"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/serializer.cxx">
+			<Option target="libstudxml"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/serializer.hxx">
+			<Option target="libstudxml"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/value-traits.cxx">
+			<Option target="libstudxml"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/value-traits.hxx">
+			<Option target="libstudxml"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/third-party/miniz/miniz.c">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/third-party/miniz/miniz.h">
+			<Option target="xlnt"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\xlnt-src\"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\xlnt-src\source\"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/cmake/XlntConfig.cmake.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\xlnt-src\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/cmake/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\xlnt-src\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/cmake/pkg-config.pc.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\xlnt-src\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/third-party/libstudxml.build/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\xlnt-src\third-party\libstudxml.build\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

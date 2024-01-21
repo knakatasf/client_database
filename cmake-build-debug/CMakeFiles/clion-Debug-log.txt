@@ -1,4 +1,13 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -G Ninja -S /Users/claudio/Desktop/CS_Projects/Client_Database -B /Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug
+/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S /Users/claudio/Desktop/CS_Projects/Client_Database -B /Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug
+CMake Deprecation Warning:
+  Support for "Extra Generators" like
+
+    CodeBlocks
+
+  is deprecated and will be removed from a future version of CMake.  IDEs may
+  use the cmake-file-api(7) to view CMake-generated project build trees.
+
+
 CMake Deprecation Warning at cmake-build-debug/_deps/xlnt-src/CMakeLists.txt:1 (cmake_minimum_required):
   Compatibility with CMake < 3.5 will be removed from a future version of
   CMake.
@@ -23,6 +32,6 @@ CMake Deprecation Warning at cmake-build-debug/_deps/xlnt-src/third-party/libstu
   CMake that the project does not need compatibility with older versions.
 
 
--- Configuring done (1.6s)
--- Generating done (0.0s)
+-- Configuring done (1.5s)
+-- Generating done (0.1s)
 -- Build files have been written to: /Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug

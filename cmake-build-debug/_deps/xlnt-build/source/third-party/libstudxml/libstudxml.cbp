@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="libstudxml"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\_deps\;CMake Files\cmake-build-debug\_deps\xlnt-src\;CMake Files\cmake-build-debug\_deps\xlnt-src\source\;CMake Files\cmake-build-debug\_deps\xlnt-src\cmake\;CMake Files\cmake-build-debug\_deps\xlnt-src\third-party\;CMake Files\cmake-build-debug\_deps\xlnt-src\third-party\libstudxml.build\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-build/source/third-party/libstudxml"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-build/source/third-party/libstudxml/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-build/source/third-party/libstudxml/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-build/source/third-party/libstudxml/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-build/source/third-party/libstudxml/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libstudxml">
+				<Option output="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/libstudxml.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-build/source/third-party/libstudxml"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DLIBSTUDXML_STATIC_LIB=1"/>
+					<Add directory="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/third-party/libstudxml.build/../libstudxml"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-build/source/third-party/libstudxml/Makefile&quot;  VERBOSE=1 libstudxml"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-build/source/third-party/libstudxml/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-build/source/third-party/libstudxml/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-build/source/third-party/libstudxml/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libstudxml/fast">
+				<Option output="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/libstudxml.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-build/source/third-party/libstudxml"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DLIBSTUDXML_STATIC_LIB=1"/>
+					<Add directory="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/third-party/libstudxml.build/../libstudxml"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-build/source/third-party/libstudxml/Makefile&quot;  VERBOSE=1 libstudxml/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-build/source/third-party/libstudxml/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-build/source/third-party/libstudxml/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-build/source/third-party/libstudxml/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/content.hxx">
+			<Option target="libstudxml"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/details/expat/ascii.h">
+			<Option target="libstudxml"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/details/expat/asciitab.h">
+			<Option target="libstudxml"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/details/expat/config.h">
+			<Option target="libstudxml"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/details/expat/expat.h">
+			<Option target="libstudxml"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/details/expat/expat_external.h">
+			<Option target="libstudxml"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/details/expat/iasciitab.h">
+			<Option target="libstudxml"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/details/expat/internal.h">
+			<Option target="libstudxml"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/details/expat/latin1tab.h">
+			<Option target="libstudxml"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/details/expat/nametab.h">
+			<Option target="libstudxml"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/details/expat/utf8tab.h">
+			<Option target="libstudxml"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/details/expat/xmlparse.c">
+			<Option target="libstudxml"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/details/expat/xmlrole.c">
+			<Option target="libstudxml"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/details/expat/xmlrole.h">
+			<Option target="libstudxml"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/details/expat/xmltok.c">
+			<Option target="libstudxml"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/details/expat/xmltok.h">
+			<Option target="libstudxml"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/details/expat/xmltok_impl.h">
+			<Option target="libstudxml"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/details/genx/char-props.c">
+			<Option target="libstudxml"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/details/genx/genx.c">
+			<Option target="libstudxml"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/details/genx/genx.h">
+			<Option target="libstudxml"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/exception.hxx">
+			<Option target="libstudxml"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/forward.hxx">
+			<Option target="libstudxml"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/parser.cxx">
+			<Option target="libstudxml"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/parser.hxx">
+			<Option target="libstudxml"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/qname.cxx">
+			<Option target="libstudxml"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/qname.hxx">
+			<Option target="libstudxml"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/serializer.cxx">
+			<Option target="libstudxml"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/serializer.hxx">
+			<Option target="libstudxml"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/value-traits.cxx">
+			<Option target="libstudxml"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/third-party/libstudxml/libstudxml/value-traits.hxx">
+			<Option target="libstudxml"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\xlnt-src\"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/source/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\xlnt-src\source\"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/cmake/XlntConfig.cmake.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\xlnt-src\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/cmake/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\xlnt-src\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/cmake/pkg-config.pc.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\xlnt-src\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/third-party/libstudxml.build/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\xlnt-src\third-party\libstudxml.build\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
