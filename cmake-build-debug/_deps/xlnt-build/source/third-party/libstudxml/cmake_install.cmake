@@ -1,4 +1,4 @@
-# Install script for directory: /Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src/third-party/libstudxml.build
+# Install script for directory: /Users/claudio/Desktop/CS_Projects/Client_Database_Classic/cmake-build-debug/_deps/xlnt-src/third-party/libstudxml.build
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

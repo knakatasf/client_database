@@ -1,0 +1,1599 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "_deps/xlnt-build/source/libxlntd.dylib"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"install",
+			"target_compile_definitions",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"cmake-build-debug/_deps/xlnt-src/source/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 159,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 246,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 164,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 182,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -Weverything -Wno-c++98-compat -Wno-c++98-compat-pedantic -Wno-padded -Wno-documentation-unknown-command -Wno-unknown-pragmas -Wno-unknown-warning-option -Wno-newline-eof -Wno-covered-switch-default -Wno-exit-time-destructors -Wno-missing-braces -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIC -fcolor-diagnostics"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "XLNT_SHARED=1"
+				},
+				{
+					"define" : "xlnt_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "/Users/claudio/Desktop/CS_Projects/Client_Database_Classic/cmake-build-debug/_deps/xlnt-src/source/../include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/claudio/Desktop/CS_Projects/Client_Database_Classic/cmake-build-debug/_deps/xlnt-src/source/../source"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/claudio/Desktop/CS_Projects/Client_Database_Classic/cmake-build-debug/_deps/xlnt-src/source/../source/../third-party/libstudxml"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/claudio/Desktop/CS_Projects/Client_Database_Classic/cmake-build-debug/_deps/xlnt-src/source/../source/../third-party/miniz"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/claudio/Desktop/CS_Projects/Client_Database_Classic/cmake-build-debug/_deps/xlnt-src/source/../source/../third-party/utfcpp"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150,
+				151,
+				152,
+				153,
+				154,
+				155,
+				156,
+				157,
+				158,
+				161,
+				162,
+				163,
+				164,
+				165,
+				166,
+				167,
+				168,
+				169,
+				170
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIC -fcolor-diagnostics"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "XLNT_SHARED=1"
+				},
+				{
+					"define" : "xlnt_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "/Users/claudio/Desktop/CS_Projects/Client_Database_Classic/cmake-build-debug/_deps/xlnt-src/source/../include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/claudio/Desktop/CS_Projects/Client_Database_Classic/cmake-build-debug/_deps/xlnt-src/source/../source"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/claudio/Desktop/CS_Projects/Client_Database_Classic/cmake-build-debug/_deps/xlnt-src/source/../source/../third-party/libstudxml"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/claudio/Desktop/CS_Projects/Client_Database_Classic/cmake-build-debug/_deps/xlnt-src/source/../source/../third-party/miniz"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/claudio/Desktop/CS_Projects/Client_Database_Classic/cmake-build-debug/_deps/xlnt-src/source/../source/../third-party/utfcpp"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				159,
+				160,
+				172
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -Weverything -Wno-c++98-compat -Wno-c++98-compat-pedantic -Wno-padded -Wno-documentation-unknown-command -Wno-unknown-pragmas -Wno-unknown-warning-option -Wno-newline-eof -Wno-covered-switch-default -Wno-exit-time-destructors -Wno-missing-braces -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIC -fcolor-diagnostics"
+				},
+				{
+					"fragment" : "-Wno-undef -Wno-shorten-64-to-32"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "XLNT_SHARED=1"
+				},
+				{
+					"define" : "xlnt_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "/Users/claudio/Desktop/CS_Projects/Client_Database_Classic/cmake-build-debug/_deps/xlnt-src/source/../include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/claudio/Desktop/CS_Projects/Client_Database_Classic/cmake-build-debug/_deps/xlnt-src/source/../source"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/claudio/Desktop/CS_Projects/Client_Database_Classic/cmake-build-debug/_deps/xlnt-src/source/../source/../third-party/libstudxml"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/claudio/Desktop/CS_Projects/Client_Database_Classic/cmake-build-debug/_deps/xlnt-src/source/../source/../third-party/miniz"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/claudio/Desktop/CS_Projects/Client_Database_Classic/cmake-build-debug/_deps/xlnt-src/source/../source/../third-party/utfcpp"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				171
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"id" : "libstudxml::@adc904478183145f15fa"
+		}
+	],
+	"id" : "xlnt::@874320f2c4e182ab03bd",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "xlnt",
+	"nameOnDisk" : "libxlntd.dylib",
+	"paths" : 
+	{
+		"build" : "_deps/xlnt-build/source",
+		"source" : "cmake-build-debug/_deps/xlnt-src/source"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "xlnt",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		},
+		{
+			"name" : "cell",
+			"sourceIndexes" : 
+			[
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112
+			]
+		},
+		{
+			"name" : "drawing",
+			"sourceIndexes" : 
+			[
+				11,
+				113
+			]
+		},
+		{
+			"name" : "packaging",
+			"sourceIndexes" : 
+			[
+				12,
+				13,
+				14,
+				15,
+				114,
+				115,
+				116,
+				117
+			]
+		},
+		{
+			"name" : "styles",
+			"sourceIndexes" : 
+			[
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127
+			]
+		},
+		{
+			"name" : "utils",
+			"sourceIndexes" : 
+			[
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				128,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134
+			]
+		},
+		{
+			"name" : "workbook",
+			"sourceIndexes" : 
+			[
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				135,
+				136,
+				137,
+				138,
+				139
+			]
+		},
+		{
+			"name" : "worksheet",
+			"sourceIndexes" : 
+			[
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150
+			]
+		},
+		{
+			"name" : "detail",
+			"sourceIndexes" : 
+			[
+				68,
+				69,
+				70,
+				71,
+				151,
+				152
+			]
+		},
+		{
+			"name" : "detail\\cryptography",
+			"sourceIndexes" : 
+			[
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				153,
+				154,
+				155,
+				156,
+				157,
+				158,
+				159,
+				160,
+				161,
+				162
+			]
+		},
+		{
+			"name" : "detail\\external",
+			"sourceIndexes" : 
+			[
+				82,
+				83
+			]
+		},
+		{
+			"name" : "detail\\header_footer",
+			"sourceIndexes" : 
+			[
+				84,
+				163
+			]
+		},
+		{
+			"name" : "detail\\implementations",
+			"sourceIndexes" : 
+			[
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				164
+			]
+		},
+		{
+			"name" : "detail\\number_format",
+			"sourceIndexes" : 
+			[
+				94,
+				165
+			]
+		},
+		{
+			"name" : "detail\\serialization",
+			"sourceIndexes" : 
+			[
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				166,
+				167,
+				168,
+				169,
+				170,
+				171
+			]
+		},
+		{
+			"name" : "third-party\\miniz",
+			"sourceIndexes" : 
+			[
+				104,
+				172
+			]
+		},
+		{
+			"name" : "Object Libraries",
+			"sourceIndexes" : 
+			[
+				173,
+				174,
+				175,
+				176,
+				177,
+				178,
+				179,
+				180,
+				181
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/include/xlnt/xlnt.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/include/xlnt/xlnt_config.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/include/xlnt/cell/cell.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/include/xlnt/cell/cell_reference.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/include/xlnt/cell/cell_type.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/include/xlnt/cell/comment.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/include/xlnt/cell/hyperlink.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/include/xlnt/cell/index_types.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/include/xlnt/cell/phonetic_run.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/include/xlnt/cell/rich_text.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/include/xlnt/cell/rich_text_run.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/include/xlnt/drawing/spreadsheet_drawing.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/include/xlnt/packaging/ext_list.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/include/xlnt/packaging/manifest.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/include/xlnt/packaging/relationship.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/include/xlnt/packaging/uri.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/include/xlnt/styles/alignment.hpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/include/xlnt/styles/border.hpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/include/xlnt/styles/color.hpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/include/xlnt/styles/conditional_format.hpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/include/xlnt/styles/fill.hpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/include/xlnt/styles/font.hpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/include/xlnt/styles/format.hpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/include/xlnt/styles/number_format.hpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/include/xlnt/styles/protection.hpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/include/xlnt/styles/style.hpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/include/xlnt/utils/calendar.hpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/include/xlnt/utils/date.hpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/include/xlnt/utils/datetime.hpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/include/xlnt/utils/exceptions.hpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/include/xlnt/utils/numeric.hpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/include/xlnt/utils/optional.hpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/include/xlnt/utils/path.hpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/include/xlnt/utils/scoped_enum_hash.hpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/include/xlnt/utils/time.hpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/include/xlnt/utils/timedelta.hpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/include/xlnt/utils/variant.hpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/include/xlnt/workbook/calculation_properties.hpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/include/xlnt/workbook/document_security.hpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/include/xlnt/workbook/external_book.hpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/include/xlnt/workbook/metadata_property.hpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/include/xlnt/workbook/named_range.hpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/include/xlnt/workbook/streaming_workbook_reader.hpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/include/xlnt/workbook/streaming_workbook_writer.hpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/include/xlnt/workbook/theme.hpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/include/xlnt/workbook/workbook.hpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/include/xlnt/workbook/workbook_view.hpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/include/xlnt/workbook/worksheet_iterator.hpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/include/xlnt/worksheet/cell_iterator.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/include/xlnt/worksheet/cell_vector.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/include/xlnt/worksheet/column_properties.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/include/xlnt/worksheet/header_footer.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/include/xlnt/worksheet/major_order.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/include/xlnt/worksheet/page_margins.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/include/xlnt/worksheet/page_setup.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/include/xlnt/worksheet/pane.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/include/xlnt/worksheet/phonetic_pr.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/include/xlnt/worksheet/print_options.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/include/xlnt/worksheet/range.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/include/xlnt/worksheet/range_iterator.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/include/xlnt/worksheet/range_reference.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/include/xlnt/worksheet/row_properties.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/include/xlnt/worksheet/selection.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/include/xlnt/worksheet/sheet_format_properties.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/include/xlnt/worksheet/sheet_pr.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/include/xlnt/worksheet/sheet_protection.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/include/xlnt/worksheet/sheet_view.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/include/xlnt/worksheet/worksheet.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/detail/binary.hpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/detail/constants.hpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/detail/default_case.hpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/detail/unicode.hpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/detail/cryptography/aes.hpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/detail/cryptography/base64.hpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/detail/cryptography/cipher.hpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/detail/cryptography/compound_document.hpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/detail/cryptography/encryption_info.hpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/detail/cryptography/hash.hpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/detail/cryptography/sha.hpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/detail/cryptography/value_traits.hpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/detail/cryptography/xlsx_crypto_consumer.hpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/detail/cryptography/xlsx_crypto_producer.hpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/detail/external/include_libstudxml.hpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/detail/external/include_windows.hpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/detail/header_footer/header_footer_code.hpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/detail/implementations/cell_impl.hpp",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/detail/implementations/conditional_format_impl.hpp",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/detail/implementations/format_impl.hpp",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/detail/implementations/formatting_record.hpp",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/detail/implementations/hyperlink_impl.hpp",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/detail/implementations/style_impl.hpp",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/detail/implementations/stylesheet.hpp",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/detail/implementations/workbook_impl.hpp",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/detail/implementations/worksheet_impl.hpp",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/detail/number_format/number_formatter.hpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/detail/serialization/custom_value_traits.hpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/detail/serialization/defined_name.hpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/detail/serialization/excel_thumbnail.hpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/detail/serialization/open_stream.hpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/detail/serialization/serialisation_helpers.hpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/detail/serialization/vector_streambuf.hpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/detail/serialization/xlsx_consumer.hpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/detail/serialization/xlsx_producer.hpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/detail/serialization/zstream.hpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/third-party/miniz/miniz.h",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/cell/cell.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/cell/cell_reference.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/cell/comment.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/cell/hyperlink.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/cell/index_types.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/cell/phonetic_run.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/cell/rich_text.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/cell/rich_text_run.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/drawing/spreadsheet_drawing.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/packaging/ext_list.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/packaging/manifest.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/packaging/relationship.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/packaging/uri.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/styles/alignment.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/styles/border.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/styles/color.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/styles/conditional_format.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/styles/fill.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/styles/font.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/styles/format.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/styles/number_format.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/styles/protection.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/styles/style.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/utils/date.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/utils/datetime.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/utils/exceptions.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/utils/path.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/utils/time.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/utils/timedelta.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/utils/variant.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/workbook/named_range.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/workbook/streaming_workbook_reader.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/workbook/streaming_workbook_writer.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/workbook/workbook.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/workbook/worksheet_iterator.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/worksheet/cell_iterator.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/worksheet/cell_vector.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/worksheet/header_footer.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/worksheet/page_margins.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/worksheet/page_setup.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/worksheet/phonetic_pr.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/worksheet/range.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/worksheet/range_iterator.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/worksheet/range_reference.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/worksheet/sheet_protection.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/worksheet/worksheet.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/detail/constants.cpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/detail/unicode.cpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/detail/cryptography/aes.cpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/detail/cryptography/base64.cpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/detail/cryptography/compound_document.cpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/detail/cryptography/encryption_info.cpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/detail/cryptography/hash.cpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/detail/cryptography/sha.cpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/detail/cryptography/sha1.c",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/detail/cryptography/sha512.c",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/detail/cryptography/xlsx_crypto_consumer.cpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/detail/cryptography/xlsx_crypto_producer.cpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/detail/header_footer/header_footer_code.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/detail/implementations/cell_impl.cpp",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/detail/number_format/number_formatter.cpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/detail/serialization/custom_value_traits.cpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/detail/serialization/open_stream.cpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/detail/serialization/vector_streambuf.cpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/detail/serialization/xlsx_consumer.cpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/detail/serialization/xlsx_producer.cpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 2,
+			"path" : "cmake-build-debug/_deps/xlnt-src/source/detail/serialization/zstream.cpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "cmake-build-debug/_deps/xlnt-src/third-party/miniz/miniz.c",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/_deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/__/libstudxml/libstudxml/parser.cxx.o",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/_deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/__/libstudxml/libstudxml/qname.cxx.o",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/_deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/__/libstudxml/libstudxml/serializer.cxx.o",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/_deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/__/libstudxml/libstudxml/value-traits.cxx.o",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/_deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/__/libstudxml/libstudxml/details/genx/char-props.c.o",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/_deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/__/libstudxml/libstudxml/details/genx/genx.c.o",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/_deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/__/libstudxml/libstudxml/details/expat/xmlparse.c.o",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/_deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/__/libstudxml/libstudxml/details/expat/xmlrole.c.o",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/_deps/xlnt-build/source/third-party/libstudxml/CMakeFiles/libstudxml.dir/__/libstudxml/libstudxml/details/expat/xmltok.c.o",
+			"sourceGroupIndex" : 16
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

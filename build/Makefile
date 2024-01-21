@@ -162,7 +162,7 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Client_Database
+# Target rules for targets named Client_Database_Classic
 
 # Build rule for target.
 Client_Database: cmake_check_build_system

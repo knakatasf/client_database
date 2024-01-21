@@ -1,4 +1,4 @@
-# Install script for directory: /Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src
+# Install script for directory: /Users/claudio/Desktop/CS_Projects/Client_Database_Classic/cmake-build-debug/_deps/xlnt-src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-build/source/cmake_install.cmake")
+  include("/Users/claudio/Desktop/CS_Projects/Client_Database_Classic/cmake-build-debug/_deps/xlnt-build/source/cmake_install.cmake")
 
 endif()
 

@@ -1,4 +1,4 @@
-# Install script for directory: /Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-subbuild
+# Install script for directory: /Users/claudio/Desktop/CS_Projects/Client_Database_Classic/cmake-build-debug/_deps/xlnt-subbuild
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-subbuild/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/claudio/Desktop/CS_Projects/Client_Database_Classic/cmake-build-debug/_deps/xlnt-subbuild/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

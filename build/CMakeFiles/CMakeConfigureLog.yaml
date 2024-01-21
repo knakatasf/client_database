@@ -99,8 +99,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/Users/claudio/Desktop/CS_Projects/Client_Database/build/CMakeFiles/CMakeScratch/TryCompile-FOzE33"
-      binary: "/Users/claudio/Desktop/CS_Projects/Client_Database/build/CMakeFiles/CMakeScratch/TryCompile-FOzE33"
+      source: "/Users/claudio/Desktop/CS_Projects/Client_Database_Classic/build/CMakeFiles/CMakeScratch/TryCompile-FOzE33"
+      binary: "/Users/claudio/Desktop/CS_Projects/Client_Database_Classic/build/CMakeFiles/CMakeScratch/TryCompile-FOzE33"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -252,8 +252,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/Users/claudio/Desktop/CS_Projects/Client_Database/build/CMakeFiles/CMakeScratch/TryCompile-ZWQBON"
-      binary: "/Users/claudio/Desktop/CS_Projects/Client_Database/build/CMakeFiles/CMakeScratch/TryCompile-ZWQBON"
+      source: "/Users/claudio/Desktop/CS_Projects/Client_Database_Classic/build/CMakeFiles/CMakeScratch/TryCompile-ZWQBON"
+      binary: "/Users/claudio/Desktop/CS_Projects/Client_Database_Classic/build/CMakeFiles/CMakeScratch/TryCompile-ZWQBON"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"

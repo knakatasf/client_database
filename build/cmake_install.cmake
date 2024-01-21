@@ -1,4 +1,4 @@
-# Install script for directory: /Users/claudio/Desktop/CS_Projects/Client_Database
+# Install script for directory: /Users/claudio/Desktop/CS_Projects/Client_Database_Classic
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

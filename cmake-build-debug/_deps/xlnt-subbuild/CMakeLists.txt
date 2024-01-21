@@ -28,8 +28,8 @@ set_property(GLOBAL PROPERTY _CMAKE_FindGit_GIT_EXECUTABLE_VERSION
 include(ExternalProject)
 ExternalProject_Add(xlnt-populate
                      "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/tfussell/xlnt.git" "EXTERNALPROJECT_INTERNAL_ARGUMENT_SEPARATOR" "GIT_TAG" "origin/master"
-                    SOURCE_DIR          "/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-src"
-                    BINARY_DIR          "/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/_deps/xlnt-build"
+                    SOURCE_DIR          "/Users/claudio/Desktop/CS_Projects/Client_Database_Classic/cmake-build-debug/_deps/xlnt-src"
+                    BINARY_DIR          "/Users/claudio/Desktop/CS_Projects/Client_Database_Classic/cmake-build-debug/_deps/xlnt-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

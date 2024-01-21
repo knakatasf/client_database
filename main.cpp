@@ -11,7 +11,7 @@ const string password = "MySQL129158!";
 const string db = "mysql";
 const string dbName = "MyClientDB";
 const string tableName = "clients";
-const string excelPath = "/Users/claudio/Desktop/CS_Projects/Client_Database/ClientContactInfo.xlsx";
+const string excelPath = "/Users/claudio/Desktop/CS_Projects/Client_Database_Classic/ClientContactInfo.xlsx";
 
 int main() {
     DBManager MyDB = DBManager();

@@ -1,8 +1,8 @@
-if(NOT EXISTS "/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/install_manifest.txt")
-  message(FATAL_ERROR "Cannot find install manifest: /Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/install_manifest.txt")
-endif(NOT EXISTS "/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/install_manifest.txt")
+if(NOT EXISTS "/Users/claudio/Desktop/CS_Projects/Client_Database_Classic/cmake-build-debug/install_manifest.txt")
+  message(FATAL_ERROR "Cannot find install manifest: /Users/claudio/Desktop/CS_Projects/Client_Database_Classic/cmake-build-debug/install_manifest.txt")
+endif(NOT EXISTS "/Users/claudio/Desktop/CS_Projects/Client_Database_Classic/cmake-build-debug/install_manifest.txt")
 
-file(READ "/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/install_manifest.txt" files)
+file(READ "/Users/claudio/Desktop/CS_Projects/Client_Database_Classic/cmake-build-debug/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 foreach(file ${files})
   message(STATUS "Uninstalling $ENV{DESTDIR}${file}")
