@@ -261,6 +261,30 @@ src/DBManager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Client_Database.dir/build.make CMakeFiles/Client_Database.dir/src/DBManager.cpp.s
 .PHONY : src/DBManager.cpp.s
 
+src/ImportDialog.o: src/ImportDialog.cpp.o
+.PHONY : src/ImportDialog.o
+
+# target to build an object file
+src/ImportDialog.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Client_Database.dir/build.make CMakeFiles/Client_Database.dir/src/ImportDialog.cpp.o
+.PHONY : src/ImportDialog.cpp.o
+
+src/ImportDialog.i: src/ImportDialog.cpp.i
+.PHONY : src/ImportDialog.i
+
+# target to preprocess a source file
+src/ImportDialog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Client_Database.dir/build.make CMakeFiles/Client_Database.dir/src/ImportDialog.cpp.i
+.PHONY : src/ImportDialog.cpp.i
+
+src/ImportDialog.s: src/ImportDialog.cpp.s
+.PHONY : src/ImportDialog.s
+
+# target to generate assembly for a file
+src/ImportDialog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Client_Database.dir/build.make CMakeFiles/Client_Database.dir/src/ImportDialog.cpp.s
+.PHONY : src/ImportDialog.cpp.s
+
 src/InsertDialog.o: src/InsertDialog.cpp.o
 .PHONY : src/InsertDialog.o
 
@@ -284,30 +308,6 @@ src/InsertDialog.s: src/InsertDialog.cpp.s
 src/InsertDialog.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Client_Database.dir/build.make CMakeFiles/Client_Database.dir/src/InsertDialog.cpp.s
 .PHONY : src/InsertDialog.cpp.s
-
-src/MyDBApp.o: src/MyDBApp.cpp.o
-.PHONY : src/MyDBApp.o
-
-# target to build an object file
-src/MyDBApp.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Client_Database.dir/build.make CMakeFiles/Client_Database.dir/src/MyDBApp.cpp.o
-.PHONY : src/MyDBApp.cpp.o
-
-src/MyDBApp.i: src/MyDBApp.cpp.i
-.PHONY : src/MyDBApp.i
-
-# target to preprocess a source file
-src/MyDBApp.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Client_Database.dir/build.make CMakeFiles/Client_Database.dir/src/MyDBApp.cpp.i
-.PHONY : src/MyDBApp.cpp.i
-
-src/MyDBApp.s: src/MyDBApp.cpp.s
-.PHONY : src/MyDBApp.s
-
-# target to generate assembly for a file
-src/MyDBApp.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Client_Database.dir/build.make CMakeFiles/Client_Database.dir/src/MyDBApp.cpp.s
-.PHONY : src/MyDBApp.cpp.s
 
 src/MyDBFrame.o: src/MyDBFrame.cpp.o
 .PHONY : src/MyDBFrame.o
@@ -427,12 +427,12 @@ help:
 	@echo "... src/DBManager.o"
 	@echo "... src/DBManager.i"
 	@echo "... src/DBManager.s"
+	@echo "... src/ImportDialog.o"
+	@echo "... src/ImportDialog.i"
+	@echo "... src/ImportDialog.s"
 	@echo "... src/InsertDialog.o"
 	@echo "... src/InsertDialog.i"
 	@echo "... src/InsertDialog.s"
-	@echo "... src/MyDBApp.o"
-	@echo "... src/MyDBApp.i"
-	@echo "... src/MyDBApp.s"
 	@echo "... src/MyDBFrame.o"
 	@echo "... src/MyDBFrame.i"
 	@echo "... src/MyDBFrame.s"

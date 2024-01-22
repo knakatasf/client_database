@@ -179,6 +179,40 @@ void DBManager::deleteClient(Client& target) {
     }
 }
 
+void DBManager::importFromExcel(const string excelPath) {
+    xlnt::workbook wb;
+    wb.load(excelPath);
+    auto ws = wb.active_sheet();
+
+    vector<Client> clientVec;
+    auto rows = ws.rows(false);
+    for (auto rowIter = next(rows.begin()); rowIter != rows.end(); ++rowIter) {
+        auto row = *rowIter;
+        Client client;
+
+        string name = row[0].to_string();
+        int pos = name.find(", ");
+        string lName = name.substr(0, pos);
+        client.setLastName(lName);
+        string fName = name.substr(pos + 2, name.length());
+        client.setFirstName(fName);
+
+        client.setPhoneNumber(row[1].to_string());
+        client.setEmail(row[2].to_string());
+        client.setAddress(row[3].to_string());
+        client.setCity(row[4].to_string());
+        client.setZipcode(row[5].to_string());
+        client.setState(row[6].to_string());
+
+        clientVec.push_back(client);
+    }
+    useDB();
+
+    for (Client client: clientVec) {
+        insertClientToDB(client);
+    }
+}
+
 void DBManager::useDB() {
     if (con) {
         sql::Statement* useStmt = con->createStatement();
@@ -224,51 +258,3 @@ vector<Client> DBManager::createClientVec(vector<Client>& resVec, sql::ResultSet
     }
     return resVec;
 }
-
-
-//
-//void DBManager::importFromExcel() {
-//    cout << "Inside the member function" << endl;
-//    string excelPath;
-//    cout << "Please input the excel file path: ";
-//    getline(cin, excelPath);
-//
-//    try {
-//        xlnt::workbook wb;
-//        wb.load(excelPath);
-//        auto ws = wb.active_sheet();
-//
-//        cout << "Worksheet loaded" << endl;
-//
-//        vector<Client> clientVec;
-//        auto rows = ws.rows(false);
-//        for (auto rowIter = next(rows.begin()); rowIter != rows.end(); ++rowIter) {
-//            auto row = *rowIter;
-//            Client client;
-//
-//            cout << "Inside the for loop" << endl;
-//
-//            string name = row[0].to_string();
-//            int pos = name.find(", ");
-//            string lName = name.substr(0, pos);
-//            client.setLastName(lName);
-//            string fName = name.substr(pos + 2, name.length());
-//            client.setFirstName(fName);
-//
-//            client.setPhoneNumber(row[1].to_string());
-//            client.setEmail(row[2].to_string());
-//            client.setAddress(row[3].to_string());
-//            client.setCity(row[4].to_string());
-//            client.setZipcode(row[5].to_string());
-//            client.setState(row[6].to_string());
-//
-//            clientVec.push_back(client);
-//        }
-//        for (Client client : clientVec) {
-//            insertClientToDB(client);
-//        }
-//    } catch (const exception& e) {
-//        cerr << "Error: " << e.what() << endl;
-//    }
-//}
-//

@@ -125,24 +125,10 @@ CMakeFiles/Client_Database.dir/src/MyDBFrame.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Client_Database.dir/src/MyDBFrame.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/claudio/Desktop/CS_Projects/Client_Database/src/MyDBFrame.cpp -o CMakeFiles/Client_Database.dir/src/MyDBFrame.cpp.s
 
-CMakeFiles/Client_Database.dir/src/MyDBApp.cpp.o: CMakeFiles/Client_Database.dir/flags.make
-CMakeFiles/Client_Database.dir/src/MyDBApp.cpp.o: /Users/claudio/Desktop/CS_Projects/Client_Database/src/MyDBApp.cpp
-CMakeFiles/Client_Database.dir/src/MyDBApp.cpp.o: CMakeFiles/Client_Database.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Client_Database.dir/src/MyDBApp.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Client_Database.dir/src/MyDBApp.cpp.o -MF CMakeFiles/Client_Database.dir/src/MyDBApp.cpp.o.d -o CMakeFiles/Client_Database.dir/src/MyDBApp.cpp.o -c /Users/claudio/Desktop/CS_Projects/Client_Database/src/MyDBApp.cpp
-
-CMakeFiles/Client_Database.dir/src/MyDBApp.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Client_Database.dir/src/MyDBApp.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/claudio/Desktop/CS_Projects/Client_Database/src/MyDBApp.cpp > CMakeFiles/Client_Database.dir/src/MyDBApp.cpp.i
-
-CMakeFiles/Client_Database.dir/src/MyDBApp.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Client_Database.dir/src/MyDBApp.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/claudio/Desktop/CS_Projects/Client_Database/src/MyDBApp.cpp -o CMakeFiles/Client_Database.dir/src/MyDBApp.cpp.s
-
 CMakeFiles/Client_Database.dir/src/InsertDialog.cpp.o: CMakeFiles/Client_Database.dir/flags.make
 CMakeFiles/Client_Database.dir/src/InsertDialog.cpp.o: /Users/claudio/Desktop/CS_Projects/Client_Database/src/InsertDialog.cpp
 CMakeFiles/Client_Database.dir/src/InsertDialog.cpp.o: CMakeFiles/Client_Database.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Client_Database.dir/src/InsertDialog.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Client_Database.dir/src/InsertDialog.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Client_Database.dir/src/InsertDialog.cpp.o -MF CMakeFiles/Client_Database.dir/src/InsertDialog.cpp.o.d -o CMakeFiles/Client_Database.dir/src/InsertDialog.cpp.o -c /Users/claudio/Desktop/CS_Projects/Client_Database/src/InsertDialog.cpp
 
 CMakeFiles/Client_Database.dir/src/InsertDialog.cpp.i: cmake_force
@@ -156,7 +142,7 @@ CMakeFiles/Client_Database.dir/src/InsertDialog.cpp.s: cmake_force
 CMakeFiles/Client_Database.dir/src/SearchDialog.cpp.o: CMakeFiles/Client_Database.dir/flags.make
 CMakeFiles/Client_Database.dir/src/SearchDialog.cpp.o: /Users/claudio/Desktop/CS_Projects/Client_Database/src/SearchDialog.cpp
 CMakeFiles/Client_Database.dir/src/SearchDialog.cpp.o: CMakeFiles/Client_Database.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Client_Database.dir/src/SearchDialog.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Client_Database.dir/src/SearchDialog.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Client_Database.dir/src/SearchDialog.cpp.o -MF CMakeFiles/Client_Database.dir/src/SearchDialog.cpp.o.d -o CMakeFiles/Client_Database.dir/src/SearchDialog.cpp.o -c /Users/claudio/Desktop/CS_Projects/Client_Database/src/SearchDialog.cpp
 
 CMakeFiles/Client_Database.dir/src/SearchDialog.cpp.i: cmake_force
@@ -170,7 +156,7 @@ CMakeFiles/Client_Database.dir/src/SearchDialog.cpp.s: cmake_force
 CMakeFiles/Client_Database.dir/src/ResultEditDialog.cpp.o: CMakeFiles/Client_Database.dir/flags.make
 CMakeFiles/Client_Database.dir/src/ResultEditDialog.cpp.o: /Users/claudio/Desktop/CS_Projects/Client_Database/src/ResultEditDialog.cpp
 CMakeFiles/Client_Database.dir/src/ResultEditDialog.cpp.o: CMakeFiles/Client_Database.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Client_Database.dir/src/ResultEditDialog.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Client_Database.dir/src/ResultEditDialog.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Client_Database.dir/src/ResultEditDialog.cpp.o -MF CMakeFiles/Client_Database.dir/src/ResultEditDialog.cpp.o.d -o CMakeFiles/Client_Database.dir/src/ResultEditDialog.cpp.o -c /Users/claudio/Desktop/CS_Projects/Client_Database/src/ResultEditDialog.cpp
 
 CMakeFiles/Client_Database.dir/src/ResultEditDialog.cpp.i: cmake_force
@@ -181,16 +167,30 @@ CMakeFiles/Client_Database.dir/src/ResultEditDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Client_Database.dir/src/ResultEditDialog.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/claudio/Desktop/CS_Projects/Client_Database/src/ResultEditDialog.cpp -o CMakeFiles/Client_Database.dir/src/ResultEditDialog.cpp.s
 
+CMakeFiles/Client_Database.dir/src/ImportDialog.cpp.o: CMakeFiles/Client_Database.dir/flags.make
+CMakeFiles/Client_Database.dir/src/ImportDialog.cpp.o: /Users/claudio/Desktop/CS_Projects/Client_Database/src/ImportDialog.cpp
+CMakeFiles/Client_Database.dir/src/ImportDialog.cpp.o: CMakeFiles/Client_Database.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Client_Database.dir/src/ImportDialog.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Client_Database.dir/src/ImportDialog.cpp.o -MF CMakeFiles/Client_Database.dir/src/ImportDialog.cpp.o.d -o CMakeFiles/Client_Database.dir/src/ImportDialog.cpp.o -c /Users/claudio/Desktop/CS_Projects/Client_Database/src/ImportDialog.cpp
+
+CMakeFiles/Client_Database.dir/src/ImportDialog.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Client_Database.dir/src/ImportDialog.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/claudio/Desktop/CS_Projects/Client_Database/src/ImportDialog.cpp > CMakeFiles/Client_Database.dir/src/ImportDialog.cpp.i
+
+CMakeFiles/Client_Database.dir/src/ImportDialog.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Client_Database.dir/src/ImportDialog.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/claudio/Desktop/CS_Projects/Client_Database/src/ImportDialog.cpp -o CMakeFiles/Client_Database.dir/src/ImportDialog.cpp.s
+
 # Object files for target Client_Database
 Client_Database_OBJECTS = \
 "CMakeFiles/Client_Database.dir/src/main.cpp.o" \
 "CMakeFiles/Client_Database.dir/src/DBManager.cpp.o" \
 "CMakeFiles/Client_Database.dir/src/Client.cpp.o" \
 "CMakeFiles/Client_Database.dir/src/MyDBFrame.cpp.o" \
-"CMakeFiles/Client_Database.dir/src/MyDBApp.cpp.o" \
 "CMakeFiles/Client_Database.dir/src/InsertDialog.cpp.o" \
 "CMakeFiles/Client_Database.dir/src/SearchDialog.cpp.o" \
-"CMakeFiles/Client_Database.dir/src/ResultEditDialog.cpp.o"
+"CMakeFiles/Client_Database.dir/src/ResultEditDialog.cpp.o" \
+"CMakeFiles/Client_Database.dir/src/ImportDialog.cpp.o"
 
 # External object files for target Client_Database
 Client_Database_EXTERNAL_OBJECTS =
@@ -199,10 +199,10 @@ Client_Database: CMakeFiles/Client_Database.dir/src/main.cpp.o
 Client_Database: CMakeFiles/Client_Database.dir/src/DBManager.cpp.o
 Client_Database: CMakeFiles/Client_Database.dir/src/Client.cpp.o
 Client_Database: CMakeFiles/Client_Database.dir/src/MyDBFrame.cpp.o
-Client_Database: CMakeFiles/Client_Database.dir/src/MyDBApp.cpp.o
 Client_Database: CMakeFiles/Client_Database.dir/src/InsertDialog.cpp.o
 Client_Database: CMakeFiles/Client_Database.dir/src/SearchDialog.cpp.o
 Client_Database: CMakeFiles/Client_Database.dir/src/ResultEditDialog.cpp.o
+Client_Database: CMakeFiles/Client_Database.dir/src/ImportDialog.cpp.o
 Client_Database: CMakeFiles/Client_Database.dir/build.make
 Client_Database: _deps/xlnt-build/source/libxlntd.1.5.0.dylib
 Client_Database: CMakeFiles/Client_Database.dir/link.txt

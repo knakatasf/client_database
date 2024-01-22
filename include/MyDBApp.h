@@ -8,6 +8,7 @@
 
 #include <string>
 
+// Application class: this invokes a main frame
 class MyDBApp : public wxApp {
 public:
     virtual bool OnInit() {

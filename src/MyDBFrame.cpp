@@ -33,7 +33,7 @@ MyDBFrame::MyDBFrame(const string& host, const string& user, const string& passw
     Bind(wxEVT_COMMAND_BUTTON_CLICKED, &MyDBFrame::OnSearch, this, ID_SEARCH);
     Bind(wxEVT_COMMAND_BUTTON_CLICKED, &MyDBFrame::OnEdit, this, ID_EDIT);
     Bind(wxEVT_COMMAND_BUTTON_CLICKED, &MyDBFrame::OnDelete, this, ID_DELETE);
-
+    Bind(wxEVT_COMMAND_BUTTON_CLICKED, &MyDBFrame::OnImport, this, ID_IMPORT);
 }
 
 void MyDBFrame::OnInsert(wxCommandEvent& event) {
@@ -58,4 +58,10 @@ void MyDBFrame::OnDelete(wxCommandEvent& event) {
     SearchDialog* searchDialog = new SearchDialog(this, wxID_ANY, "Edit Client", false, true);
     searchDialog->ShowModal();
     searchDialog->Destroy();
+}
+
+void MyDBFrame::OnImport(wxCommandEvent& event) {
+    ImportDialog* importDialog = new ImportDialog(this, wxID_ANY, "Import Data from Excel");
+    importDialog->ShowModal();
+    importDialog->Destroy();
 }

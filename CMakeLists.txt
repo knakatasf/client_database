@@ -31,7 +31,6 @@ add_executable(Client_Database
         src/MyDBFrame.cpp
         include/MyDBFrame.h
         include/DBAppConfig.h
-        src/MyDBApp.cpp
         include/MyDBApp.h
         include/MyDBApp.h
         src/InsertDialog.cpp
@@ -42,6 +41,8 @@ add_executable(Client_Database
         include/ResultEditDialog.h
         src/main.cpp
         src/main.cpp
+        src/ImportDialog.cpp
+        include/ImportDialog.h
 )
 
 target_include_directories(Client_Database

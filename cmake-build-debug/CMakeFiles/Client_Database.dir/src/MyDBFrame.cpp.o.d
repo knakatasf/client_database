@@ -1073,4 +1073,5 @@ CMakeFiles/Client_Database.dir/src/MyDBFrame.cpp.o: \
   /Users/claudio/Desktop/CS_Projects/Client_Database/src/../include/InsertDialog.h \
   /usr/local/include/wx-3.2/wx/gbsizer.h \
   /Users/claudio/Desktop/CS_Projects/Client_Database/src/../include/SearchDialog.h \
-  /Users/claudio/Desktop/CS_Projects/Client_Database/src/../include/ResultEditDialog.h
+  /Users/claudio/Desktop/CS_Projects/Client_Database/src/../include/ResultEditDialog.h \
+  /Users/claudio/Desktop/CS_Projects/Client_Database/src/../include/ImportDialog.h

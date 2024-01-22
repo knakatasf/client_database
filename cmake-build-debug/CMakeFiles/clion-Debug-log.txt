@@ -32,6 +32,6 @@ CMake Deprecation Warning at cmake-build-debug/_deps/xlnt-src/third-party/libstu
   CMake that the project does not need compatibility with older versions.
 
 
--- Configuring done (1.5s)
+-- Configuring done (1.3s)
 -- Generating done (0.1s)
 -- Build files have been written to: /Users/claudio/Desktop/CS_Projects/Client_Database/cmake-build-debug

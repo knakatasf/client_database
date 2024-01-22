@@ -34,6 +34,7 @@ public:
     void editClientEmail(Client&);
     void editClientAddress(Client&);
     void deleteClient(Client&);
+    void importFromExcel(std::string);
 
 
 private:

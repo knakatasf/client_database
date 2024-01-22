@@ -6,6 +6,7 @@
 #include "DBManager.h"
 #include "InsertDialog.h"
 #include "SearchDialog.h"
+#include "ImportDialog.h"
 
 class MyDBFrame : public wxFrame {
 public:
@@ -30,8 +31,7 @@ private:
     void OnSearch(wxCommandEvent&);
     void OnEdit(wxCommandEvent&);
     void OnDelete(wxCommandEvent&);
-//    void OnImport(wxCommandEvent&) { dbManager.importFromExcel(); }
-
+    void OnImport(wxCommandEvent&);
 };
 
 #endif

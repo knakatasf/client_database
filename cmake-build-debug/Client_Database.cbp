@@ -895,6 +895,9 @@
 		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/include/DBManager.h">
 			<Option target="Client_Database"/>
 		</Unit>
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/include/ImportDialog.h">
+			<Option target="Client_Database"/>
+		</Unit>
 		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/include/InsertDialog.h">
 			<Option target="Client_Database"/>
 		</Unit>
@@ -916,10 +919,10 @@
 		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/src/DBManager.cpp">
 			<Option target="Client_Database"/>
 		</Unit>
-		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/src/InsertDialog.cpp">
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/src/ImportDialog.cpp">
 			<Option target="Client_Database"/>
 		</Unit>
-		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/src/MyDBApp.cpp">
+		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/src/InsertDialog.cpp">
 			<Option target="Client_Database"/>
 		</Unit>
 		<Unit filename="/Users/claudio/Desktop/CS_Projects/Client_Database/src/MyDBFrame.cpp">

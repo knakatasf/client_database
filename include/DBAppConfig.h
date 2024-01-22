@@ -1,5 +1,6 @@
 #include <string>
 
+// Global const variable should be stored in config.h file with namespace.
 namespace DBAppConfig {
     const std::string HOST = "localhost";
     const std::string USER = "root";
