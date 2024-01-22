@@ -173,7 +173,6 @@ void DBManager::deleteClient() {
 }
 
 void DBManager::importFromExcel() {
-    cout << "Inside the member function" << endl;
     string excelPath;
     cout << "Please input the excel file path: ";
     getline(cin, excelPath);
@@ -183,15 +182,11 @@ void DBManager::importFromExcel() {
         wb.load(excelPath);
         auto ws = wb.active_sheet();
 
-        cout << "Worksheet loaded" << endl;
-
         vector<Client> clientVec;
         auto rows = ws.rows(false);
         for (auto rowIter = next(rows.begin()); rowIter != rows.end(); ++rowIter) {
             auto row = *rowIter;
             Client client;
-
-            cout << "Inside the for loop" << endl;
 
             string name = row[0].to_string();
             int pos = name.find(", ");
@@ -209,9 +204,13 @@ void DBManager::importFromExcel() {
 
             clientVec.push_back(client);
         }
+        useDB();
+
         for (Client client : clientVec) {
             insertClientToDB(client);
         }
+
+        cout << "Imported data from the excel file!" << endl;
     } catch (const exception& e) {
         cerr << "Error: " << e.what() << endl;
     }
