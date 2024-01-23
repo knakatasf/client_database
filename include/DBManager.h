@@ -18,6 +18,7 @@
 class DBManager {
 public:
     ~DBManager() { delete con; }
+    // For singleton pattern, copy constructor has to be deleted.
     DBManager(const DBManager& obj) = delete;
 
     static DBManager* getInstance();
@@ -49,41 +50,5 @@ private:
 
     std::vector<Client> createClientVec(std::vector<Client>&, sql::ResultSet*);
 };
-
-
-//class DBManager {
-//public:
-//    DBManager() : driver{nullptr}, con{nullptr} {}
-//    ~DBManager() { delete con; }
-//
-//    void executeMethod();
-//    int chooseMenu();
-//
-//    void connect(const std::string&, const std::string&, const std::string&, const std::string&);
-//    void createDB(const std::string&);
-//
-//    void insertNewClient();
-//    void insertClientToDB(const Client&);
-//    std::vector<Client> searchClient();
-//    void editClient();
-//    void deleteClient();
-//    void importFromExcel();
-//
-//private:
-//    sql::mysql::MySQL_Driver* driver {nullptr};
-//    sql::Connection* con {nullptr};
-//
-//    // helper functions
-//    std::vector<Client> searchByName();
-//    std::vector<Client> searchByPhone();
-//    std::vector<Client> searchByEmail();
-//
-//    void editClientName(Client&);
-//    void editClientPhone(Client&);
-//    void editClientEmail(Client&);
-//    void editClientAddress(Client&);
-//
-//    std::vector<Client> createClientVec(std::vector<Client>&, sql::ResultSet*);
-//};
 
 #endif
